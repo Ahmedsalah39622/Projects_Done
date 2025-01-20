@@ -1,0 +1,906 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Public Class Rpt_Daily_Shapping
+    Inherits DevExpress.XtraReports.UI.XtraReport
+
+    'XtraReport overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        If disposing AndAlso components IsNot Nothing Then
+            components.Dispose()
+        End If
+        MyBase.Dispose(disposing)
+    End Sub
+
+    'Required by the Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Designer
+    'It can be modified using the Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Rpt_Daily_Shapping))
+        Dim TableQuery1 As DevExpress.DataAccess.Sql.TableQuery = New DevExpress.DataAccess.Sql.TableQuery()
+        Dim TableInfo1 As DevExpress.DataAccess.Sql.TableInfo = New DevExpress.DataAccess.Sql.TableInfo()
+        Dim ColumnInfo1 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo2 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo3 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo4 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo5 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo6 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo7 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo8 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo9 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo10 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo11 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo12 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo13 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo14 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo15 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo16 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo17 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo18 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Me.Detail = New DevExpress.XtraReports.UI.DetailBand()
+        Me.XrLabel14 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel13 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel12 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel28 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel3 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel6 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel29 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel38 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.TopMargin = New DevExpress.XtraReports.UI.TopMarginBand()
+        Me.Lab_ShName = New DevExpress.XtraReports.UI.XRLabel()
+        Me.Lab_Suppliser = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel1 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.lab_date2 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.lab_date1 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel71 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel68 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel69 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel19 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.BottomMargin = New DevExpress.XtraReports.UI.BottomMarginBand()
+        Me.XrPageInfo1 = New DevExpress.XtraReports.UI.XRPageInfo()
+        Me.XrPageInfo2 = New DevExpress.XtraReports.UI.XRPageInfo()
+        Me.XrControlStyle1 = New DevExpress.XtraReports.UI.XRControlStyle()
+        Me.GroupFooter1 = New DevExpress.XtraReports.UI.GroupFooterBand()
+        Me.XrLabel24 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel35 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel30 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel8 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel25 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel22 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel23 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel17 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrControlStyle2 = New DevExpress.XtraReports.UI.XRControlStyle()
+        Me.XrPictureBox1 = New DevExpress.XtraReports.UI.XRPictureBox()
+        Me.XrLabel9 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel10 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel11 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.SqlDataSource2 = New DevExpress.DataAccess.Sql.SqlDataSource(Me.components)
+        Me.XrLabel15 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel16 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel21 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrControlStyle3 = New DevExpress.XtraReports.UI.XRControlStyle()
+        CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
+        '
+        'Detail
+        '
+        Me.Detail.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrLabel21, Me.XrLabel16, Me.XrLabel15, Me.XrLabel14, Me.XrLabel13, Me.XrLabel12, Me.XrLabel28, Me.XrLabel3, Me.XrLabel6, Me.XrLabel29, Me.XrLabel38})
+        Me.Detail.HeightF = 25.0!
+        Me.Detail.KeepTogether = True
+        Me.Detail.Name = "Detail"
+        Me.Detail.Padding = New DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100.0!)
+        Me.Detail.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft
+        '
+        'XrLabel14
+        '
+        Me.XrLabel14.BorderColor = System.Drawing.Color.White
+        Me.XrLabel14.Borders = CType(((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) _
+            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
+        Me.XrLabel14.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "vw_DailyShapping.DateDiff", "{0:n2}")})
+        Me.XrLabel14.EvenStyleName = "XrControlStyle3"
+        Me.XrLabel14.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!)
+        Me.XrLabel14.LocationFloat = New DevExpress.Utils.PointFloat(4.999898!, 0.0!)
+        Me.XrLabel14.Name = "XrLabel14"
+        Me.XrLabel14.OddStyleName = "XrControlStyle2"
+        Me.XrLabel14.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel14.SizeF = New System.Drawing.SizeF(93.48316!, 23.0!)
+        Me.XrLabel14.StylePriority.UseBorderColor = False
+        Me.XrLabel14.StylePriority.UseBorders = False
+        Me.XrLabel14.StylePriority.UseFont = False
+        Me.XrLabel14.StylePriority.UseTextAlignment = False
+        Me.XrLabel14.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel13
+        '
+        Me.XrLabel13.BackColor = System.Drawing.Color.Transparent
+        Me.XrLabel13.BorderColor = System.Drawing.Color.White
+        Me.XrLabel13.Borders = CType(((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) _
+            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
+        Me.XrLabel13.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "vw_DailyShapping.No_Certifect")})
+        Me.XrLabel13.EvenStyleName = "XrControlStyle3"
+        Me.XrLabel13.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!)
+        Me.XrLabel13.ForeColor = System.Drawing.Color.Maroon
+        Me.XrLabel13.LocationFloat = New DevExpress.Utils.PointFloat(974.9794!, 0.0!)
+        Me.XrLabel13.Name = "XrLabel13"
+        Me.XrLabel13.OddStyleName = "XrControlStyle2"
+        Me.XrLabel13.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel13.SizeF = New System.Drawing.SizeF(88.02057!, 23.00001!)
+        Me.XrLabel13.StylePriority.UseBackColor = False
+        Me.XrLabel13.StylePriority.UseBorderColor = False
+        Me.XrLabel13.StylePriority.UseBorders = False
+        Me.XrLabel13.StylePriority.UseFont = False
+        Me.XrLabel13.StylePriority.UseForeColor = False
+        Me.XrLabel13.StylePriority.UseTextAlignment = False
+        Me.XrLabel13.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel12
+        '
+        Me.XrLabel12.BackColor = System.Drawing.Color.Transparent
+        Me.XrLabel12.BorderColor = System.Drawing.Color.White
+        Me.XrLabel12.Borders = CType(((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) _
+            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
+        Me.XrLabel12.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "vw_DailyShapping.Policynumber", "{0:dd/MM/yyyy}")})
+        Me.XrLabel12.EvenStyleName = "XrControlStyle3"
+        Me.XrLabel12.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!)
+        Me.XrLabel12.ForeColor = System.Drawing.Color.Black
+        Me.XrLabel12.LocationFloat = New DevExpress.Utils.PointFloat(886.9587!, 0.0!)
+        Me.XrLabel12.Name = "XrLabel12"
+        Me.XrLabel12.OddStyleName = "XrControlStyle2"
+        Me.XrLabel12.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel12.SizeF = New System.Drawing.SizeF(88.02069!, 23.95833!)
+        Me.XrLabel12.StylePriority.UseBackColor = False
+        Me.XrLabel12.StylePriority.UseBorderColor = False
+        Me.XrLabel12.StylePriority.UseBorders = False
+        Me.XrLabel12.StylePriority.UseFont = False
+        Me.XrLabel12.StylePriority.UseForeColor = False
+        Me.XrLabel12.StylePriority.UseTextAlignment = False
+        Me.XrLabel12.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel28
+        '
+        Me.XrLabel28.BackColor = System.Drawing.Color.Transparent
+        Me.XrLabel28.BorderColor = System.Drawing.Color.White
+        Me.XrLabel28.Borders = CType(((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) _
+            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
+        Me.XrLabel28.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "vw_DailyShapping.PolicyDate", "{0:dd/MM/yyyy}")})
+        Me.XrLabel28.EvenStyleName = "XrControlStyle3"
+        Me.XrLabel28.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!)
+        Me.XrLabel28.ForeColor = System.Drawing.Color.Black
+        Me.XrLabel28.LocationFloat = New DevExpress.Utils.PointFloat(798.9382!, 0.0!)
+        Me.XrLabel28.Name = "XrLabel28"
+        Me.XrLabel28.OddStyleName = "XrControlStyle2"
+        Me.XrLabel28.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel28.SizeF = New System.Drawing.SizeF(88.02057!, 23.95833!)
+        Me.XrLabel28.StylePriority.UseBackColor = False
+        Me.XrLabel28.StylePriority.UseBorderColor = False
+        Me.XrLabel28.StylePriority.UseBorders = False
+        Me.XrLabel28.StylePriority.UseFont = False
+        Me.XrLabel28.StylePriority.UseForeColor = False
+        Me.XrLabel28.StylePriority.UseTextAlignment = False
+        Me.XrLabel28.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel3
+        '
+        Me.XrLabel3.BackColor = System.Drawing.Color.Transparent
+        Me.XrLabel3.BorderColor = System.Drawing.Color.White
+        Me.XrLabel3.Borders = CType(((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) _
+            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
+        Me.XrLabel3.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "vw_DailyShapping.Departure_Date", "{0:dd/MM/yyyy}")})
+        Me.XrLabel3.EvenStyleName = "XrControlStyle3"
+        Me.XrLabel3.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!)
+        Me.XrLabel3.ForeColor = System.Drawing.Color.Black
+        Me.XrLabel3.LocationFloat = New DevExpress.Utils.PointFloat(713.3345!, 0.0!)
+        Me.XrLabel3.Name = "XrLabel3"
+        Me.XrLabel3.OddStyleName = "XrControlStyle2"
+        Me.XrLabel3.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel3.SizeF = New System.Drawing.SizeF(85.6037!, 23.95833!)
+        Me.XrLabel3.StylePriority.UseBackColor = False
+        Me.XrLabel3.StylePriority.UseBorderColor = False
+        Me.XrLabel3.StylePriority.UseBorders = False
+        Me.XrLabel3.StylePriority.UseFont = False
+        Me.XrLabel3.StylePriority.UseForeColor = False
+        Me.XrLabel3.StylePriority.UseTextAlignment = False
+        Me.XrLabel3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel6
+        '
+        Me.XrLabel6.BackColor = System.Drawing.Color.Transparent
+        Me.XrLabel6.BorderColor = System.Drawing.Color.White
+        Me.XrLabel6.Borders = CType(((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) _
+            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
+        Me.XrLabel6.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "vw_DailyShapping.Arrival_Date", "{0:dd/MM/yyyy}")})
+        Me.XrLabel6.EvenStyleName = "XrControlStyle3"
+        Me.XrLabel6.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!)
+        Me.XrLabel6.ForeColor = System.Drawing.Color.Black
+        Me.XrLabel6.LocationFloat = New DevExpress.Utils.PointFloat(618.6891!, 0.0!)
+        Me.XrLabel6.Name = "XrLabel6"
+        Me.XrLabel6.OddStyleName = "XrControlStyle2"
+        Me.XrLabel6.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel6.SizeF = New System.Drawing.SizeF(94.64539!, 23.95833!)
+        Me.XrLabel6.StylePriority.UseBackColor = False
+        Me.XrLabel6.StylePriority.UseBorderColor = False
+        Me.XrLabel6.StylePriority.UseBorders = False
+        Me.XrLabel6.StylePriority.UseFont = False
+        Me.XrLabel6.StylePriority.UseForeColor = False
+        Me.XrLabel6.StylePriority.UseTextAlignment = False
+        Me.XrLabel6.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel29
+        '
+        Me.XrLabel29.BackColor = System.Drawing.Color.Transparent
+        Me.XrLabel29.BorderColor = System.Drawing.Color.White
+        Me.XrLabel29.Borders = CType(((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) _
+            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
+        Me.XrLabel29.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "vw_DailyShapping.Departure_port")})
+        Me.XrLabel29.EvenStyleName = "XrControlStyle3"
+        Me.XrLabel29.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!)
+        Me.XrLabel29.ForeColor = System.Drawing.Color.Black
+        Me.XrLabel29.LocationFloat = New DevExpress.Utils.PointFloat(517.8962!, 0.0!)
+        Me.XrLabel29.Name = "XrLabel29"
+        Me.XrLabel29.OddStyleName = "XrControlStyle2"
+        Me.XrLabel29.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel29.SizeF = New System.Drawing.SizeF(100.7928!, 23.95833!)
+        Me.XrLabel29.StylePriority.UseBackColor = False
+        Me.XrLabel29.StylePriority.UseBorderColor = False
+        Me.XrLabel29.StylePriority.UseBorders = False
+        Me.XrLabel29.StylePriority.UseFont = False
+        Me.XrLabel29.StylePriority.UseForeColor = False
+        Me.XrLabel29.StylePriority.UseTextAlignment = False
+        Me.XrLabel29.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel38
+        '
+        Me.XrLabel38.BackColor = System.Drawing.Color.Transparent
+        Me.XrLabel38.BorderColor = System.Drawing.Color.White
+        Me.XrLabel38.Borders = CType(((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) _
+            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
+        Me.XrLabel38.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "vw_DailyShapping.Arrival_Port")})
+        Me.XrLabel38.EvenStyleName = "XrControlStyle3"
+        Me.XrLabel38.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!)
+        Me.XrLabel38.ForeColor = System.Drawing.Color.Black
+        Me.XrLabel38.LocationFloat = New DevExpress.Utils.PointFloat(417.1034!, 0.0!)
+        Me.XrLabel38.Name = "XrLabel38"
+        Me.XrLabel38.OddStyleName = "XrControlStyle2"
+        Me.XrLabel38.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel38.SizeF = New System.Drawing.SizeF(100.7928!, 23.95833!)
+        Me.XrLabel38.StylePriority.UseBackColor = False
+        Me.XrLabel38.StylePriority.UseBorderColor = False
+        Me.XrLabel38.StylePriority.UseBorders = False
+        Me.XrLabel38.StylePriority.UseFont = False
+        Me.XrLabel38.StylePriority.UseForeColor = False
+        Me.XrLabel38.StylePriority.UseTextAlignment = False
+        Me.XrLabel38.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'TopMargin
+        '
+        Me.TopMargin.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.Lab_ShName, Me.Lab_Suppliser, Me.XrLabel1, Me.lab_date2, Me.lab_date1, Me.XrLabel71, Me.XrLabel68, Me.XrLabel69, Me.XrPictureBox1, Me.XrLabel19, Me.XrLabel24, Me.XrLabel10, Me.XrLabel17, Me.XrLabel35, Me.XrLabel9, Me.XrLabel30, Me.XrLabel8, Me.XrLabel25, Me.XrLabel22, Me.XrLabel23, Me.XrLabel11})
+        Me.TopMargin.HeightF = 181.1666!
+        Me.TopMargin.Name = "TopMargin"
+        Me.TopMargin.Padding = New DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100.0!)
+        Me.TopMargin.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft
+        '
+        'Lab_ShName
+        '
+        Me.Lab_ShName.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.Lab_ShName.BorderColor = System.Drawing.Color.White
+        Me.Lab_ShName.Borders = DevExpress.XtraPrinting.BorderSide.Top
+        Me.Lab_ShName.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.Lab_ShName.ForeColor = System.Drawing.Color.Black
+        Me.Lab_ShName.LocationFloat = New DevExpress.Utils.PointFloat(701.6676!, 100.1249!)
+        Me.Lab_ShName.Name = "Lab_ShName"
+        Me.Lab_ShName.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.Lab_ShName.SizeF = New System.Drawing.SizeF(202.9786!, 22.5!)
+        Me.Lab_ShName.StylePriority.UseBackColor = False
+        Me.Lab_ShName.StylePriority.UseBorderColor = False
+        Me.Lab_ShName.StylePriority.UseBorders = False
+        Me.Lab_ShName.StylePriority.UseFont = False
+        Me.Lab_ShName.StylePriority.UseForeColor = False
+        Me.Lab_ShName.StylePriority.UseTextAlignment = False
+        Me.Lab_ShName.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'Lab_Suppliser
+        '
+        Me.Lab_Suppliser.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.Lab_Suppliser.BorderColor = System.Drawing.Color.White
+        Me.Lab_Suppliser.Borders = DevExpress.XtraPrinting.BorderSide.Top
+        Me.Lab_Suppliser.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.Lab_Suppliser.ForeColor = System.Drawing.Color.Black
+        Me.Lab_Suppliser.LocationFloat = New DevExpress.Utils.PointFloat(701.6676!, 77.62489!)
+        Me.Lab_Suppliser.Name = "Lab_Suppliser"
+        Me.Lab_Suppliser.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.Lab_Suppliser.SizeF = New System.Drawing.SizeF(202.9786!, 22.5!)
+        Me.Lab_Suppliser.StylePriority.UseBackColor = False
+        Me.Lab_Suppliser.StylePriority.UseBorderColor = False
+        Me.Lab_Suppliser.StylePriority.UseBorders = False
+        Me.Lab_Suppliser.StylePriority.UseFont = False
+        Me.Lab_Suppliser.StylePriority.UseForeColor = False
+        Me.Lab_Suppliser.StylePriority.UseTextAlignment = False
+        Me.Lab_Suppliser.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel1
+        '
+        Me.XrLabel1.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.XrLabel1.BorderColor = System.Drawing.Color.White
+        Me.XrLabel1.Borders = DevExpress.XtraPrinting.BorderSide.Top
+        Me.XrLabel1.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel1.ForeColor = System.Drawing.Color.Black
+        Me.XrLabel1.LocationFloat = New DevExpress.Utils.PointFloat(904.6463!, 102.5833!)
+        Me.XrLabel1.Name = "XrLabel1"
+        Me.XrLabel1.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel1.SizeF = New System.Drawing.SizeF(123.0208!, 22.04169!)
+        Me.XrLabel1.StylePriority.UseBackColor = False
+        Me.XrLabel1.StylePriority.UseBorderColor = False
+        Me.XrLabel1.StylePriority.UseBorders = False
+        Me.XrLabel1.StylePriority.UseFont = False
+        Me.XrLabel1.StylePriority.UseForeColor = False
+        Me.XrLabel1.StylePriority.UseTextAlignment = False
+        Me.XrLabel1.Text = ": أسم شركة الشحن"
+        Me.XrLabel1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'lab_date2
+        '
+        Me.lab_date2.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.lab_date2.BorderColor = System.Drawing.Color.White
+        Me.lab_date2.Borders = DevExpress.XtraPrinting.BorderSide.Top
+        Me.lab_date2.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.lab_date2.ForeColor = System.Drawing.Color.Black
+        Me.lab_date2.LocationFloat = New DevExpress.Utils.PointFloat(701.6677!, 55.12492!)
+        Me.lab_date2.Name = "lab_date2"
+        Me.lab_date2.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.lab_date2.SizeF = New System.Drawing.SizeF(202.9786!, 22.5!)
+        Me.lab_date2.StylePriority.UseBackColor = False
+        Me.lab_date2.StylePriority.UseBorderColor = False
+        Me.lab_date2.StylePriority.UseBorders = False
+        Me.lab_date2.StylePriority.UseFont = False
+        Me.lab_date2.StylePriority.UseForeColor = False
+        Me.lab_date2.StylePriority.UseTextAlignment = False
+        Me.lab_date2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'lab_date1
+        '
+        Me.lab_date1.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.lab_date1.BorderColor = System.Drawing.Color.White
+        Me.lab_date1.Borders = DevExpress.XtraPrinting.BorderSide.Top
+        Me.lab_date1.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.lab_date1.ForeColor = System.Drawing.Color.Black
+        Me.lab_date1.LocationFloat = New DevExpress.Utils.PointFloat(701.6677!, 31.1666!)
+        Me.lab_date1.Name = "lab_date1"
+        Me.lab_date1.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.lab_date1.SizeF = New System.Drawing.SizeF(202.9786!, 22.5!)
+        Me.lab_date1.StylePriority.UseBackColor = False
+        Me.lab_date1.StylePriority.UseBorderColor = False
+        Me.lab_date1.StylePriority.UseBorders = False
+        Me.lab_date1.StylePriority.UseFont = False
+        Me.lab_date1.StylePriority.UseForeColor = False
+        Me.lab_date1.StylePriority.UseTextAlignment = False
+        Me.lab_date1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel71
+        '
+        Me.XrLabel71.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.XrLabel71.BorderColor = System.Drawing.Color.White
+        Me.XrLabel71.Borders = DevExpress.XtraPrinting.BorderSide.Top
+        Me.XrLabel71.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel71.ForeColor = System.Drawing.Color.Black
+        Me.XrLabel71.LocationFloat = New DevExpress.Utils.PointFloat(904.6463!, 80.54161!)
+        Me.XrLabel71.Name = "XrLabel71"
+        Me.XrLabel71.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel71.SizeF = New System.Drawing.SizeF(123.0208!, 22.04169!)
+        Me.XrLabel71.StylePriority.UseBackColor = False
+        Me.XrLabel71.StylePriority.UseBorderColor = False
+        Me.XrLabel71.StylePriority.UseBorders = False
+        Me.XrLabel71.StylePriority.UseFont = False
+        Me.XrLabel71.StylePriority.UseForeColor = False
+        Me.XrLabel71.StylePriority.UseTextAlignment = False
+        Me.XrLabel71.Text = ": أسم المورد"
+        Me.XrLabel71.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel68
+        '
+        Me.XrLabel68.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.XrLabel68.BorderColor = System.Drawing.Color.White
+        Me.XrLabel68.Borders = DevExpress.XtraPrinting.BorderSide.Top
+        Me.XrLabel68.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel68.ForeColor = System.Drawing.Color.Black
+        Me.XrLabel68.LocationFloat = New DevExpress.Utils.PointFloat(904.6463!, 56.58323!)
+        Me.XrLabel68.Name = "XrLabel68"
+        Me.XrLabel68.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel68.SizeF = New System.Drawing.SizeF(123.0208!, 23.95833!)
+        Me.XrLabel68.StylePriority.UseBackColor = False
+        Me.XrLabel68.StylePriority.UseBorderColor = False
+        Me.XrLabel68.StylePriority.UseBorders = False
+        Me.XrLabel68.StylePriority.UseFont = False
+        Me.XrLabel68.StylePriority.UseForeColor = False
+        Me.XrLabel68.StylePriority.UseTextAlignment = False
+        Me.XrLabel68.Text = ": الى فترة"
+        Me.XrLabel68.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel69
+        '
+        Me.XrLabel69.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.XrLabel69.BorderColor = System.Drawing.Color.White
+        Me.XrLabel69.Borders = DevExpress.XtraPrinting.BorderSide.Top
+        Me.XrLabel69.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel69.ForeColor = System.Drawing.Color.Black
+        Me.XrLabel69.LocationFloat = New DevExpress.Utils.PointFloat(904.6463!, 31.1666!)
+        Me.XrLabel69.Name = "XrLabel69"
+        Me.XrLabel69.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel69.SizeF = New System.Drawing.SizeF(123.0208!, 23.95833!)
+        Me.XrLabel69.StylePriority.UseBackColor = False
+        Me.XrLabel69.StylePriority.UseBorderColor = False
+        Me.XrLabel69.StylePriority.UseBorders = False
+        Me.XrLabel69.StylePriority.UseFont = False
+        Me.XrLabel69.StylePriority.UseForeColor = False
+        Me.XrLabel69.StylePriority.UseTextAlignment = False
+        Me.XrLabel69.Text = ":من فترة "
+        Me.XrLabel69.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel19
+        '
+        Me.XrLabel19.Font = New DevExpress.Drawing.DXFont("Tahoma", 10.0!, CType((DevExpress.Drawing.DXFontStyle.Bold Or DevExpress.Drawing.DXFontStyle.Underline), DevExpress.Drawing.DXFontStyle))
+        Me.XrLabel19.LocationFloat = New DevExpress.Utils.PointFloat(329.5627!, 23.87492!)
+        Me.XrLabel19.Multiline = True
+        Me.XrLabel19.Name = "XrLabel19"
+        Me.XrLabel19.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel19.SizeF = New System.Drawing.SizeF(316.9997!, 31.25001!)
+        Me.XrLabel19.StylePriority.UseFont = False
+        Me.XrLabel19.StylePriority.UseTextAlignment = False
+        Me.XrLabel19.Text = "الشحنات المتأخرة خلال فترة"
+        Me.XrLabel19.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'BottomMargin
+        '
+        Me.BottomMargin.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrPageInfo1, Me.XrPageInfo2})
+        Me.BottomMargin.HeightF = 24.66667!
+        Me.BottomMargin.Name = "BottomMargin"
+        Me.BottomMargin.Padding = New DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100.0!)
+        Me.BottomMargin.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft
+        '
+        'XrPageInfo1
+        '
+        Me.XrPageInfo1.Font = New DevExpress.Drawing.DXFont("Tahoma", 9.75!)
+        Me.XrPageInfo1.Format = "{0:dddd, dd MMMM, yyyy hh:mm tt}"
+        Me.XrPageInfo1.LocationFloat = New DevExpress.Utils.PointFloat(10.0!, 0.0!)
+        Me.XrPageInfo1.Name = "XrPageInfo1"
+        Me.XrPageInfo1.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrPageInfo1.PageInfo = DevExpress.XtraPrinting.PageInfo.DateTime
+        Me.XrPageInfo1.SizeF = New System.Drawing.SizeF(211.4582!, 23.0!)
+        Me.XrPageInfo1.StylePriority.UseFont = False
+        Me.XrPageInfo1.StylePriority.UseTextAlignment = False
+        Me.XrPageInfo1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter
+        '
+        'XrPageInfo2
+        '
+        Me.XrPageInfo2.Font = New DevExpress.Drawing.DXFont("Tahoma", 9.75!)
+        Me.XrPageInfo2.Format = "Page {0} of {1}"
+        Me.XrPageInfo2.LocationFloat = New DevExpress.Utils.PointFloat(476.2293!, 1.666667!)
+        Me.XrPageInfo2.Name = "XrPageInfo2"
+        Me.XrPageInfo2.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrPageInfo2.SizeF = New System.Drawing.SizeF(93.20831!, 23.0!)
+        Me.XrPageInfo2.StylePriority.UseFont = False
+        Me.XrPageInfo2.StylePriority.UseTextAlignment = False
+        Me.XrPageInfo2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter
+        '
+        'XrControlStyle1
+        '
+        Me.XrControlStyle1.BackColor = System.Drawing.Color.Transparent
+        Me.XrControlStyle1.BorderColor = System.Drawing.Color.Transparent
+        Me.XrControlStyle1.Name = "XrControlStyle1"
+        Me.XrControlStyle1.Padding = New DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100.0!)
+        '
+        'GroupFooter1
+        '
+        Me.GroupFooter1.HeightF = 30.83333!
+        Me.GroupFooter1.KeepTogether = True
+        Me.GroupFooter1.Name = "GroupFooter1"
+        '
+        'XrLabel24
+        '
+        Me.XrLabel24.BackColor = System.Drawing.Color.SteelBlue
+        Me.XrLabel24.BorderColor = System.Drawing.Color.White
+        Me.XrLabel24.Borders = DevExpress.XtraPrinting.BorderSide.Right
+        Me.XrLabel24.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!)
+        Me.XrLabel24.ForeColor = System.Drawing.Color.White
+        Me.XrLabel24.LocationFloat = New DevExpress.Utils.PointFloat(974.9794!, 153.6666!)
+        Me.XrLabel24.Name = "XrLabel24"
+        Me.XrLabel24.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel24.SizeF = New System.Drawing.SizeF(88.02063!, 25.58334!)
+        Me.XrLabel24.StylePriority.UseBackColor = False
+        Me.XrLabel24.StylePriority.UseBorderColor = False
+        Me.XrLabel24.StylePriority.UseBorders = False
+        Me.XrLabel24.StylePriority.UseFont = False
+        Me.XrLabel24.StylePriority.UseForeColor = False
+        Me.XrLabel24.StylePriority.UseTextAlignment = False
+        Me.XrLabel24.Text = " رقم الشهادة"
+        Me.XrLabel24.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel35
+        '
+        Me.XrLabel35.BackColor = System.Drawing.Color.SteelBlue
+        Me.XrLabel35.BorderColor = System.Drawing.Color.White
+        Me.XrLabel35.Borders = DevExpress.XtraPrinting.BorderSide.Right
+        Me.XrLabel35.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!)
+        Me.XrLabel35.ForeColor = System.Drawing.Color.White
+        Me.XrLabel35.LocationFloat = New DevExpress.Utils.PointFloat(268.6099!, 153.6666!)
+        Me.XrLabel35.Name = "XrLabel35"
+        Me.XrLabel35.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel35.SizeF = New System.Drawing.SizeF(148.4936!, 25.58337!)
+        Me.XrLabel35.StylePriority.UseBackColor = False
+        Me.XrLabel35.StylePriority.UseBorderColor = False
+        Me.XrLabel35.StylePriority.UseBorders = False
+        Me.XrLabel35.StylePriority.UseFont = False
+        Me.XrLabel35.StylePriority.UseForeColor = False
+        Me.XrLabel35.StylePriority.UseTextAlignment = False
+        Me.XrLabel35.Text = "شركة الشحن"
+        Me.XrLabel35.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel30
+        '
+        Me.XrLabel30.BackColor = System.Drawing.Color.SteelBlue
+        Me.XrLabel30.BorderColor = System.Drawing.Color.White
+        Me.XrLabel30.Borders = DevExpress.XtraPrinting.BorderSide.Right
+        Me.XrLabel30.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!)
+        Me.XrLabel30.ForeColor = System.Drawing.Color.White
+        Me.XrLabel30.LocationFloat = New DevExpress.Utils.PointFloat(517.8962!, 153.6665!)
+        Me.XrLabel30.Name = "XrLabel30"
+        Me.XrLabel30.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel30.SizeF = New System.Drawing.SizeF(100.7928!, 25.58337!)
+        Me.XrLabel30.StylePriority.UseBackColor = False
+        Me.XrLabel30.StylePriority.UseBorderColor = False
+        Me.XrLabel30.StylePriority.UseBorders = False
+        Me.XrLabel30.StylePriority.UseFont = False
+        Me.XrLabel30.StylePriority.UseForeColor = False
+        Me.XrLabel30.StylePriority.UseTextAlignment = False
+        Me.XrLabel30.Text = "ميناء المغادرة"
+        Me.XrLabel30.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel8
+        '
+        Me.XrLabel8.BackColor = System.Drawing.Color.SteelBlue
+        Me.XrLabel8.BorderColor = System.Drawing.Color.White
+        Me.XrLabel8.Borders = DevExpress.XtraPrinting.BorderSide.Right
+        Me.XrLabel8.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!)
+        Me.XrLabel8.ForeColor = System.Drawing.Color.White
+        Me.XrLabel8.LocationFloat = New DevExpress.Utils.PointFloat(618.6891!, 153.6665!)
+        Me.XrLabel8.Name = "XrLabel8"
+        Me.XrLabel8.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel8.SizeF = New System.Drawing.SizeF(94.64545!, 25.58337!)
+        Me.XrLabel8.StylePriority.UseBackColor = False
+        Me.XrLabel8.StylePriority.UseBorderColor = False
+        Me.XrLabel8.StylePriority.UseBorders = False
+        Me.XrLabel8.StylePriority.UseFont = False
+        Me.XrLabel8.StylePriority.UseForeColor = False
+        Me.XrLabel8.StylePriority.UseTextAlignment = False
+        Me.XrLabel8.Text = "تاريخ الوصول"
+        Me.XrLabel8.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel25
+        '
+        Me.XrLabel25.BackColor = System.Drawing.Color.SteelBlue
+        Me.XrLabel25.BorderColor = System.Drawing.Color.White
+        Me.XrLabel25.Borders = DevExpress.XtraPrinting.BorderSide.Right
+        Me.XrLabel25.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!)
+        Me.XrLabel25.ForeColor = System.Drawing.Color.White
+        Me.XrLabel25.LocationFloat = New DevExpress.Utils.PointFloat(713.3345!, 153.6666!)
+        Me.XrLabel25.Name = "XrLabel25"
+        Me.XrLabel25.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel25.SizeF = New System.Drawing.SizeF(85.60358!, 25.58337!)
+        Me.XrLabel25.StylePriority.UseBackColor = False
+        Me.XrLabel25.StylePriority.UseBorderColor = False
+        Me.XrLabel25.StylePriority.UseBorders = False
+        Me.XrLabel25.StylePriority.UseFont = False
+        Me.XrLabel25.StylePriority.UseForeColor = False
+        Me.XrLabel25.StylePriority.UseTextAlignment = False
+        Me.XrLabel25.Text = "تاريخ المغادرة"
+        Me.XrLabel25.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel22
+        '
+        Me.XrLabel22.BackColor = System.Drawing.Color.SteelBlue
+        Me.XrLabel22.BorderColor = System.Drawing.Color.White
+        Me.XrLabel22.Borders = DevExpress.XtraPrinting.BorderSide.Right
+        Me.XrLabel22.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!)
+        Me.XrLabel22.ForeColor = System.Drawing.Color.White
+        Me.XrLabel22.LocationFloat = New DevExpress.Utils.PointFloat(798.9381!, 153.6666!)
+        Me.XrLabel22.Name = "XrLabel22"
+        Me.XrLabel22.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel22.SizeF = New System.Drawing.SizeF(88.02063!, 25.58334!)
+        Me.XrLabel22.StylePriority.UseBackColor = False
+        Me.XrLabel22.StylePriority.UseBorderColor = False
+        Me.XrLabel22.StylePriority.UseBorders = False
+        Me.XrLabel22.StylePriority.UseFont = False
+        Me.XrLabel22.StylePriority.UseForeColor = False
+        Me.XrLabel22.StylePriority.UseTextAlignment = False
+        Me.XrLabel22.Text = " تاريخ البوليصة"
+        Me.XrLabel22.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel23
+        '
+        Me.XrLabel23.BackColor = System.Drawing.Color.SteelBlue
+        Me.XrLabel23.BorderColor = System.Drawing.Color.White
+        Me.XrLabel23.Borders = DevExpress.XtraPrinting.BorderSide.Right
+        Me.XrLabel23.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!)
+        Me.XrLabel23.ForeColor = System.Drawing.Color.White
+        Me.XrLabel23.LocationFloat = New DevExpress.Utils.PointFloat(886.9587!, 153.6666!)
+        Me.XrLabel23.Name = "XrLabel23"
+        Me.XrLabel23.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel23.SizeF = New System.Drawing.SizeF(88.02063!, 25.58334!)
+        Me.XrLabel23.StylePriority.UseBackColor = False
+        Me.XrLabel23.StylePriority.UseBorderColor = False
+        Me.XrLabel23.StylePriority.UseBorders = False
+        Me.XrLabel23.StylePriority.UseFont = False
+        Me.XrLabel23.StylePriority.UseForeColor = False
+        Me.XrLabel23.StylePriority.UseTextAlignment = False
+        Me.XrLabel23.Text = "رقم البوليصة"
+        Me.XrLabel23.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel17
+        '
+        Me.XrLabel17.BackColor = System.Drawing.Color.SteelBlue
+        Me.XrLabel17.BorderColor = System.Drawing.Color.White
+        Me.XrLabel17.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.Solid
+        Me.XrLabel17.Borders = CType(((DevExpress.XtraPrinting.BorderSide.Top Or DevExpress.XtraPrinting.BorderSide.Right) _
+            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
+        Me.XrLabel17.BorderWidth = 1.0!
+        Me.XrLabel17.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.25!)
+        Me.XrLabel17.ForeColor = System.Drawing.Color.White
+        Me.XrLabel17.LocationFloat = New DevExpress.Utils.PointFloat(181.6995!, 153.6665!)
+        Me.XrLabel17.Name = "XrLabel17"
+        Me.XrLabel17.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel17.SizeF = New System.Drawing.SizeF(86.9104!, 27.49999!)
+        Me.XrLabel17.StylePriority.UseBackColor = False
+        Me.XrLabel17.StylePriority.UseBorderColor = False
+        Me.XrLabel17.StylePriority.UseBorderDashStyle = False
+        Me.XrLabel17.StylePriority.UseBorders = False
+        Me.XrLabel17.StylePriority.UseBorderWidth = False
+        Me.XrLabel17.StylePriority.UseFont = False
+        Me.XrLabel17.StylePriority.UseForeColor = False
+        Me.XrLabel17.StylePriority.UseTextAlignment = False
+        Me.XrLabel17.Text = "بلد المنشأة"
+        Me.XrLabel17.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrControlStyle2
+        '
+        Me.XrControlStyle2.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.XrControlStyle2.BorderColor = System.Drawing.Color.WhiteSmoke
+        Me.XrControlStyle2.Name = "XrControlStyle2"
+        Me.XrControlStyle2.Padding = New DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100.0!)
+        '
+        'XrPictureBox1
+        '
+        Me.XrPictureBox1.Image = CType(resources.GetObject("XrPictureBox1.Image"), System.Drawing.Image)
+        Me.XrPictureBox1.LocationFloat = New DevExpress.Utils.PointFloat(33.33333!, 26.08326!)
+        Me.XrPictureBox1.Name = "XrPictureBox1"
+        Me.XrPictureBox1.SizeF = New System.Drawing.SizeF(235.2766!, 75.49997!)
+        Me.XrPictureBox1.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage
+        '
+        'XrLabel9
+        '
+        Me.XrLabel9.BackColor = System.Drawing.Color.SteelBlue
+        Me.XrLabel9.BorderColor = System.Drawing.Color.White
+        Me.XrLabel9.Borders = DevExpress.XtraPrinting.BorderSide.Right
+        Me.XrLabel9.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!)
+        Me.XrLabel9.ForeColor = System.Drawing.Color.White
+        Me.XrLabel9.LocationFloat = New DevExpress.Utils.PointFloat(417.1035!, 153.6665!)
+        Me.XrLabel9.Name = "XrLabel9"
+        Me.XrLabel9.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel9.SizeF = New System.Drawing.SizeF(100.7928!, 25.58337!)
+        Me.XrLabel9.StylePriority.UseBackColor = False
+        Me.XrLabel9.StylePriority.UseBorderColor = False
+        Me.XrLabel9.StylePriority.UseBorders = False
+        Me.XrLabel9.StylePriority.UseFont = False
+        Me.XrLabel9.StylePriority.UseForeColor = False
+        Me.XrLabel9.StylePriority.UseTextAlignment = False
+        Me.XrLabel9.Text = "ميناء الوصول"
+        Me.XrLabel9.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel10
+        '
+        Me.XrLabel10.BackColor = System.Drawing.Color.SteelBlue
+        Me.XrLabel10.BorderColor = System.Drawing.Color.White
+        Me.XrLabel10.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.Solid
+        Me.XrLabel10.Borders = CType(((DevExpress.XtraPrinting.BorderSide.Top Or DevExpress.XtraPrinting.BorderSide.Right) _
+            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
+        Me.XrLabel10.BorderWidth = 1.0!
+        Me.XrLabel10.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.25!)
+        Me.XrLabel10.ForeColor = System.Drawing.Color.White
+        Me.XrLabel10.LocationFloat = New DevExpress.Utils.PointFloat(98.48307!, 153.6666!)
+        Me.XrLabel10.Name = "XrLabel10"
+        Me.XrLabel10.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel10.SizeF = New System.Drawing.SizeF(83.21645!, 27.5!)
+        Me.XrLabel10.StylePriority.UseBackColor = False
+        Me.XrLabel10.StylePriority.UseBorderColor = False
+        Me.XrLabel10.StylePriority.UseBorderDashStyle = False
+        Me.XrLabel10.StylePriority.UseBorders = False
+        Me.XrLabel10.StylePriority.UseBorderWidth = False
+        Me.XrLabel10.StylePriority.UseFont = False
+        Me.XrLabel10.StylePriority.UseForeColor = False
+        Me.XrLabel10.StylePriority.UseTextAlignment = False
+        Me.XrLabel10.Text = "Free Time"
+        Me.XrLabel10.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel11
+        '
+        Me.XrLabel11.BackColor = System.Drawing.Color.SteelBlue
+        Me.XrLabel11.BorderColor = System.Drawing.Color.White
+        Me.XrLabel11.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.Solid
+        Me.XrLabel11.Borders = CType(((DevExpress.XtraPrinting.BorderSide.Top Or DevExpress.XtraPrinting.BorderSide.Right) _
+            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
+        Me.XrLabel11.BorderWidth = 1.0!
+        Me.XrLabel11.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.25!)
+        Me.XrLabel11.ForeColor = System.Drawing.Color.White
+        Me.XrLabel11.LocationFloat = New DevExpress.Utils.PointFloat(4.999898!, 153.6666!)
+        Me.XrLabel11.Name = "XrLabel11"
+        Me.XrLabel11.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel11.SizeF = New System.Drawing.SizeF(93.48312!, 27.5!)
+        Me.XrLabel11.StylePriority.UseBackColor = False
+        Me.XrLabel11.StylePriority.UseBorderColor = False
+        Me.XrLabel11.StylePriority.UseBorderDashStyle = False
+        Me.XrLabel11.StylePriority.UseBorders = False
+        Me.XrLabel11.StylePriority.UseBorderWidth = False
+        Me.XrLabel11.StylePriority.UseFont = False
+        Me.XrLabel11.StylePriority.UseForeColor = False
+        Me.XrLabel11.StylePriority.UseTextAlignment = False
+        Me.XrLabel11.Text = "الوقت المتأخر"
+        Me.XrLabel11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'SqlDataSource2
+        '
+        Me.SqlDataSource2.ConnectionName = "osama\omar_DB_Interpak_Connection 110"
+        Me.SqlDataSource2.Name = "SqlDataSource2"
+        TableQuery1.Name = "vw_DailyShapping"
+        TableInfo1.Name = "vw_DailyShapping"
+        ColumnInfo1.Name = "No_Certifect"
+        ColumnInfo2.Name = "Policynumber"
+        ColumnInfo3.Name = "PolicyDate"
+        ColumnInfo4.Name = "Supliser_Name"
+        ColumnInfo5.Name = "ShappingName"
+        ColumnInfo6.Name = "AccountBankName"
+        ColumnInfo7.Name = "Departure_Date"
+        ColumnInfo8.Name = "Arrival_Date"
+        ColumnInfo9.Name = "FreeTime"
+        ColumnInfo10.Name = "DateDiff"
+        ColumnInfo11.Name = "Shipping_value"
+        ColumnInfo12.Name = "amount_paid"
+        ColumnInfo13.Name = "deserved_amount"
+        ColumnInfo14.Name = "Payment_method"
+        ColumnInfo15.Name = "terms_of_delivery"
+        ColumnInfo16.Name = "Departure_port"
+        ColumnInfo17.Name = "Arrival_Port"
+        ColumnInfo18.Name = "City"
+        TableInfo1.SelectedColumns.AddRange(New DevExpress.DataAccess.Sql.ColumnInfo() {ColumnInfo1, ColumnInfo2, ColumnInfo3, ColumnInfo4, ColumnInfo5, ColumnInfo6, ColumnInfo7, ColumnInfo8, ColumnInfo9, ColumnInfo10, ColumnInfo11, ColumnInfo12, ColumnInfo13, ColumnInfo14, ColumnInfo15, ColumnInfo16, ColumnInfo17, ColumnInfo18})
+        TableQuery1.Tables.AddRange(New DevExpress.DataAccess.Sql.TableInfo() {TableInfo1})
+        Me.SqlDataSource2.Queries.AddRange(New DevExpress.DataAccess.Sql.SqlQuery() {TableQuery1})
+        Me.SqlDataSource2.ResultSchemaSerializable = resources.GetString("SqlDataSource2.ResultSchemaSerializable")
+        '
+        'XrLabel15
+        '
+        Me.XrLabel15.BackColor = System.Drawing.Color.Transparent
+        Me.XrLabel15.BorderColor = System.Drawing.Color.White
+        Me.XrLabel15.Borders = CType(((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) _
+            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
+        Me.XrLabel15.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "vw_DailyShapping.ShappingName")})
+        Me.XrLabel15.EvenStyleName = "XrControlStyle3"
+        Me.XrLabel15.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!)
+        Me.XrLabel15.ForeColor = System.Drawing.Color.Black
+        Me.XrLabel15.LocationFloat = New DevExpress.Utils.PointFloat(268.61!, 0.0!)
+        Me.XrLabel15.Name = "XrLabel15"
+        Me.XrLabel15.OddStyleName = "XrControlStyle2"
+        Me.XrLabel15.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel15.SizeF = New System.Drawing.SizeF(148.4934!, 23.95833!)
+        Me.XrLabel15.StylePriority.UseBackColor = False
+        Me.XrLabel15.StylePriority.UseBorderColor = False
+        Me.XrLabel15.StylePriority.UseBorders = False
+        Me.XrLabel15.StylePriority.UseFont = False
+        Me.XrLabel15.StylePriority.UseForeColor = False
+        Me.XrLabel15.StylePriority.UseTextAlignment = False
+        Me.XrLabel15.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel16
+        '
+        Me.XrLabel16.BorderColor = System.Drawing.Color.White
+        Me.XrLabel16.Borders = CType(((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) _
+            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
+        Me.XrLabel16.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "vw_DailyShapping.City", "{0:n2}")})
+        Me.XrLabel16.EvenStyleName = "XrControlStyle3"
+        Me.XrLabel16.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!)
+        Me.XrLabel16.LocationFloat = New DevExpress.Utils.PointFloat(181.6995!, 0.9583537!)
+        Me.XrLabel16.Name = "XrLabel16"
+        Me.XrLabel16.OddStyleName = "XrControlStyle2"
+        Me.XrLabel16.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel16.SizeF = New System.Drawing.SizeF(86.91043!, 23.0!)
+        Me.XrLabel16.StylePriority.UseBorderColor = False
+        Me.XrLabel16.StylePriority.UseBorders = False
+        Me.XrLabel16.StylePriority.UseFont = False
+        Me.XrLabel16.StylePriority.UseTextAlignment = False
+        Me.XrLabel16.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel21
+        '
+        Me.XrLabel21.BorderColor = System.Drawing.Color.White
+        Me.XrLabel21.Borders = CType(((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) _
+            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
+        Me.XrLabel21.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "vw_DailyShapping.FreeTime", "{0:n2}")})
+        Me.XrLabel21.EvenStyleName = "XrControlStyle3"
+        Me.XrLabel21.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!)
+        Me.XrLabel21.LocationFloat = New DevExpress.Utils.PointFloat(98.48307!, 0.0!)
+        Me.XrLabel21.Name = "XrLabel21"
+        Me.XrLabel21.OddStyleName = "XrControlStyle2"
+        Me.XrLabel21.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel21.SizeF = New System.Drawing.SizeF(83.21647!, 23.0!)
+        Me.XrLabel21.StylePriority.UseBorderColor = False
+        Me.XrLabel21.StylePriority.UseBorders = False
+        Me.XrLabel21.StylePriority.UseFont = False
+        Me.XrLabel21.StylePriority.UseTextAlignment = False
+        Me.XrLabel21.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrControlStyle3
+        '
+        Me.XrControlStyle3.BackColor = System.Drawing.Color.Transparent
+        Me.XrControlStyle3.BorderColor = System.Drawing.Color.Transparent
+        Me.XrControlStyle3.Name = "XrControlStyle3"
+        Me.XrControlStyle3.Padding = New DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100.0!)
+        '
+        'Rpt_Daily_Shapping
+        '
+        Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() {Me.Detail, Me.TopMargin, Me.BottomMargin, Me.GroupFooter1})
+        Me.ComponentStorage.AddRange(New System.ComponentModel.IComponent() {Me.SqlDataSource2})
+        Me.DataMember = "vw_DailyShapping"
+        Me.DataSource = Me.SqlDataSource2
+        Me.Font = New DevExpress.Drawing.DXFont("Times New Roman", 9.75!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.Landscape = True
+        Me.Margins = New DevExpress.Drawing.DXMargins(20, 7, 181, 25)
+        Me.PageHeight = 850
+        Me.PageWidth = 1100
+        Me.ScriptLanguage = DevExpress.XtraReports.ScriptLanguage.VisualBasic
+        Me.StyleSheet.AddRange(New DevExpress.XtraReports.UI.XRControlStyle() {Me.XrControlStyle1, Me.XrControlStyle2, Me.XrControlStyle3})
+        Me.Version = "15.2"
+        CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
+
+    End Sub
+    Friend WithEvents Detail As DevExpress.XtraReports.UI.DetailBand
+    Friend WithEvents TopMargin As DevExpress.XtraReports.UI.TopMarginBand
+    Friend WithEvents BottomMargin As DevExpress.XtraReports.UI.BottomMarginBand
+    Friend WithEvents XrPageInfo1 As DevExpress.XtraReports.UI.XRPageInfo
+    Friend WithEvents XrPageInfo2 As DevExpress.XtraReports.UI.XRPageInfo
+    Friend WithEvents XrLabel19 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrControlStyle1 As DevExpress.XtraReports.UI.XRControlStyle
+    Friend WithEvents XrPictureBox1 As DevExpress.XtraReports.UI.XRPictureBox
+    Friend WithEvents lab_date2 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents lab_date1 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel71 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel68 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel69 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel14 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel28 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel12 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel13 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel29 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel6 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel3 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel38 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents GroupFooter1 As DevExpress.XtraReports.UI.GroupFooterBand
+    Friend WithEvents XrLabel1 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel24 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel35 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel30 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel8 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel25 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel22 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel23 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel17 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrControlStyle2 As DevExpress.XtraReports.UI.XRControlStyle
+    Friend WithEvents Lab_ShName As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents Lab_Suppliser As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel21 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel16 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel15 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel10 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel9 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel11 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents SqlDataSource2 As DevExpress.DataAccess.Sql.SqlDataSource
+    Friend WithEvents XrControlStyle3 As DevExpress.XtraReports.UI.XRControlStyle
+End Class

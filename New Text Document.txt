@@ -1,0 +1,23 @@
+insert:
+        last_Data()
+        sql = "INSERT INTO   " & vartable & "  (Code, Name) " &
+        " values  (" & Com_Code.Text & " ,N'" & txt_name.Text & "')"
+        Cnn.Execute(sql)
+
+        MsgBox("تم الحفظ", MsgBoxStyle.Information + MsgBoxStyle.MsgBoxRight, "ERP Solution Software Module")
+
+        clear()
+        Search()
+        'find()
+
+    End Sub
+
+delete:
+                sql = "Delete  " & vartable & "   WHERE code = " & Com_Code.Text & "  "
+                rs = Cnn.Execute(sql)
+                MsgBox("تم الحذف", MsgBoxStyle.Information, "ERP Solution Software Module")
+                last_Data()
+                clear()
+                'find()
+                Search()
+        End Select

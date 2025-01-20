@@ -1,0 +1,510 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Public Class PAO_Final
+    Inherits DevExpress.XtraReports.UI.XtraReport
+
+    'XtraReport overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        If disposing AndAlso components IsNot Nothing Then
+            components.Dispose()
+        End If
+        MyBase.Dispose(disposing)
+    End Sub
+
+    'Required by the Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Designer
+    'It can be modified using the Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(PAO_Final))
+        Dim TableQuery1 As DevExpress.DataAccess.Sql.TableQuery = New DevExpress.DataAccess.Sql.TableQuery()
+        Dim TableInfo1 As DevExpress.DataAccess.Sql.TableInfo = New DevExpress.DataAccess.Sql.TableInfo()
+        Dim ColumnInfo1 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo2 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo3 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo4 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo5 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo6 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo7 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Me.Detail = New DevExpress.XtraReports.UI.DetailBand()
+        Me.TopMargin = New DevExpress.XtraReports.UI.TopMarginBand()
+        Me.XrPictureBox1 = New DevExpress.XtraReports.UI.XRPictureBox()
+        Me.BottomMargin = New DevExpress.XtraReports.UI.BottomMarginBand()
+        Me.ReportHeader = New DevExpress.XtraReports.UI.ReportHeaderBand()
+        Me.XrLabel2 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.PageHeader = New DevExpress.XtraReports.UI.PageHeaderBand()
+        Me.XrRichText4 = New DevExpress.XtraReports.UI.XRRichText()
+        Me.XrLine5 = New DevExpress.XtraReports.UI.XRLine()
+        Me.XrLine4 = New DevExpress.XtraReports.UI.XRLine()
+        Me.XrLine3 = New DevExpress.XtraReports.UI.XRLine()
+        Me.XrLine2 = New DevExpress.XtraReports.UI.XRLine()
+        Me.XrLine1 = New DevExpress.XtraReports.UI.XRLine()
+        Me.XrRichText3 = New DevExpress.XtraReports.UI.XRRichText()
+        Me.XrLabel8 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrCheckBox8 = New DevExpress.XtraReports.UI.XRCheckBox()
+        Me.XrCheckBox9 = New DevExpress.XtraReports.UI.XRCheckBox()
+        Me.XrCheckBox10 = New DevExpress.XtraReports.UI.XRCheckBox()
+        Me.XrCheckBox7 = New DevExpress.XtraReports.UI.XRCheckBox()
+        Me.XrCheckBox4 = New DevExpress.XtraReports.UI.XRCheckBox()
+        Me.XrCheckBox5 = New DevExpress.XtraReports.UI.XRCheckBox()
+        Me.XrCheckBox6 = New DevExpress.XtraReports.UI.XRCheckBox()
+        Me.XrLabel7 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrCheckBox3 = New DevExpress.XtraReports.UI.XRCheckBox()
+        Me.XrCheckBox2 = New DevExpress.XtraReports.UI.XRCheckBox()
+        Me.XrCheckBox1 = New DevExpress.XtraReports.UI.XRCheckBox()
+        Me.XrLabel6 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel5 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel4 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrRichText2 = New DevExpress.XtraReports.UI.XRRichText()
+        Me.XrLabel3 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrRichText1 = New DevExpress.XtraReports.UI.XRRichText()
+        Me.XrLabel1 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.SqlDataSource1 = New DevExpress.DataAccess.Sql.SqlDataSource(Me.components)
+        CType(Me.XrRichText4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.XrRichText3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.XrRichText2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.XrRichText1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
+        '
+        'Detail
+        '
+        Me.Detail.Dpi = 254.0!
+        Me.Detail.Expanded = False
+        Me.Detail.HeightF = 254.0!
+        Me.Detail.Name = "Detail"
+        Me.Detail.Padding = New DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 254.0!)
+        Me.Detail.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft
+        '
+        'TopMargin
+        '
+        Me.TopMargin.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrPictureBox1})
+        Me.TopMargin.Dpi = 254.0!
+        Me.TopMargin.HeightF = 452.0!
+        Me.TopMargin.Name = "TopMargin"
+        Me.TopMargin.Padding = New DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 254.0!)
+        Me.TopMargin.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft
+        '
+        'XrPictureBox1
+        '
+        Me.XrPictureBox1.Dpi = 254.0!
+        Me.XrPictureBox1.Image = CType(resources.GetObject("XrPictureBox1.Image"), System.Drawing.Image)
+        Me.XrPictureBox1.LocationFloat = New DevExpress.Utils.PointFloat(597.5!, 94.29807!)
+        Me.XrPictureBox1.Name = "XrPictureBox1"
+        Me.XrPictureBox1.SizeF = New System.Drawing.SizeF(616.3321!, 332.7019!)
+        Me.XrPictureBox1.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage
+        '
+        'BottomMargin
+        '
+        Me.BottomMargin.Dpi = 254.0!
+        Me.BottomMargin.HeightF = 254.0!
+        Me.BottomMargin.Name = "BottomMargin"
+        Me.BottomMargin.Padding = New DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 254.0!)
+        Me.BottomMargin.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft
+        '
+        'ReportHeader
+        '
+        Me.ReportHeader.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrLabel2})
+        Me.ReportHeader.Dpi = 254.0!
+        Me.ReportHeader.HeightF = 108.4792!
+        Me.ReportHeader.Name = "ReportHeader"
+        '
+        'XrLabel2
+        '
+        Me.XrLabel2.Borders = DevExpress.XtraPrinting.BorderSide.Bottom
+        Me.XrLabel2.Dpi = 254.0!
+        Me.XrLabel2.Font = New DevExpress.Drawing.DXFont("Times New Roman", 14.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel2.LocationFloat = New DevExpress.Utils.PointFloat(600.0001!, 0.0!)
+        Me.XrLabel2.Name = "XrLabel2"
+        Me.XrLabel2.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254.0!)
+        Me.XrLabel2.SizeF = New System.Drawing.SizeF(695.707!, 103.4815!)
+        Me.XrLabel2.StylePriority.UseBorders = False
+        Me.XrLabel2.StylePriority.UseFont = False
+        Me.XrLabel2.StylePriority.UseTextAlignment = False
+        Me.XrLabel2.Text = "Final Submittal Drawings"
+        Me.XrLabel2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'PageHeader
+        '
+        Me.PageHeader.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrRichText4, Me.XrLine5, Me.XrLine4, Me.XrLine3, Me.XrLine2, Me.XrLine1, Me.XrRichText3, Me.XrLabel8, Me.XrCheckBox8, Me.XrCheckBox9, Me.XrCheckBox10, Me.XrCheckBox7, Me.XrCheckBox4, Me.XrCheckBox5, Me.XrCheckBox6, Me.XrLabel7, Me.XrCheckBox3, Me.XrCheckBox2, Me.XrCheckBox1, Me.XrLabel6, Me.XrLabel5, Me.XrLabel4, Me.XrRichText2, Me.XrLabel3, Me.XrRichText1, Me.XrLabel1})
+        Me.PageHeader.Dpi = 254.0!
+        Me.PageHeader.HeightF = 2023.8!
+        Me.PageHeader.Name = "PageHeader"
+        '
+        'XrRichText4
+        '
+        Me.XrRichText4.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Rtf", Nothing, "PAO_Report.Order_NO")})
+        Me.XrRichText4.Dpi = 254.0!
+        Me.XrRichText4.Font = New DevExpress.Drawing.DXFont("Calibri", 11.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrRichText4.ForeColor = System.Drawing.Color.Red
+        Me.XrRichText4.LocationFloat = New DevExpress.Utils.PointFloat(1703.5!, 229.7333!)
+        Me.XrRichText4.Name = "XrRichText4"
+        Me.XrRichText4.SerializableRtfString = resources.GetString("XrRichText4.SerializableRtfString")
+        Me.XrRichText4.SizeF = New System.Drawing.SizeF(27.51672!, 58.42!)
+        Me.XrRichText4.StylePriority.UseFont = False
+        Me.XrRichText4.StylePriority.UseForeColor = False
+        Me.XrRichText4.Visible = False
+        '
+        'XrLine5
+        '
+        Me.XrLine5.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.Dot
+        Me.XrLine5.BorderWidth = 1.0!
+        Me.XrLine5.Dpi = 254.0!
+        Me.XrLine5.LineWidth = 3
+        Me.XrLine5.LocationFloat = New DevExpress.Utils.PointFloat(108.7731!, 1946.0!)
+        Me.XrLine5.Name = "XrLine5"
+        Me.XrLine5.SizeF = New System.Drawing.SizeF(1693.333!, 35.27783!)
+        Me.XrLine5.StylePriority.UseBorderDashStyle = False
+        Me.XrLine5.StylePriority.UseBorderWidth = False
+        '
+        'XrLine4
+        '
+        Me.XrLine4.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.Dot
+        Me.XrLine4.BorderWidth = 1.0!
+        Me.XrLine4.Dpi = 254.0!
+        Me.XrLine4.LineWidth = 3
+        Me.XrLine4.LocationFloat = New DevExpress.Utils.PointFloat(108.7731!, 1854.472!)
+        Me.XrLine4.Name = "XrLine4"
+        Me.XrLine4.SizeF = New System.Drawing.SizeF(1693.333!, 35.27783!)
+        Me.XrLine4.StylePriority.UseBorderDashStyle = False
+        Me.XrLine4.StylePriority.UseBorderWidth = False
+        '
+        'XrLine3
+        '
+        Me.XrLine3.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.Dot
+        Me.XrLine3.BorderWidth = 1.0!
+        Me.XrLine3.Dpi = 254.0!
+        Me.XrLine3.LineWidth = 3
+        Me.XrLine3.LocationFloat = New DevExpress.Utils.PointFloat(108.7731!, 1762.945!)
+        Me.XrLine3.Name = "XrLine3"
+        Me.XrLine3.SizeF = New System.Drawing.SizeF(1693.333!, 35.27783!)
+        Me.XrLine3.StylePriority.UseBorderDashStyle = False
+        Me.XrLine3.StylePriority.UseBorderWidth = False
+        '
+        'XrLine2
+        '
+        Me.XrLine2.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.Dot
+        Me.XrLine2.BorderWidth = 1.0!
+        Me.XrLine2.Dpi = 254.0!
+        Me.XrLine2.LineWidth = 3
+        Me.XrLine2.LocationFloat = New DevExpress.Utils.PointFloat(108.7731!, 1671.418!)
+        Me.XrLine2.Name = "XrLine2"
+        Me.XrLine2.SizeF = New System.Drawing.SizeF(1693.333!, 35.27783!)
+        Me.XrLine2.StylePriority.UseBorderDashStyle = False
+        Me.XrLine2.StylePriority.UseBorderWidth = False
+        '
+        'XrLine1
+        '
+        Me.XrLine1.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.Solid
+        Me.XrLine1.BorderWidth = 1.0!
+        Me.XrLine1.Dpi = 254.0!
+        Me.XrLine1.LineWidth = 3
+        Me.XrLine1.LocationFloat = New DevExpress.Utils.PointFloat(108.7731!, 1579.89!)
+        Me.XrLine1.Name = "XrLine1"
+        Me.XrLine1.SizeF = New System.Drawing.SizeF(1693.333!, 35.27783!)
+        Me.XrLine1.StylePriority.UseBorderDashStyle = False
+        Me.XrLine1.StylePriority.UseBorderWidth = False
+        '
+        'XrRichText3
+        '
+        Me.XrRichText3.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Rtf", Nothing, "PAO_Report.AccountName")})
+        Me.XrRichText3.Dpi = 254.0!
+        Me.XrRichText3.Font = New DevExpress.Drawing.DXFont("Calibri", 11.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrRichText3.LocationFloat = New DevExpress.Utils.PointFloat(513.9531!, 150.7066!)
+        Me.XrRichText3.Name = "XrRichText3"
+        Me.XrRichText3.SerializableRtfString = resources.GetString("XrRichText3.SerializableRtfString")
+        Me.XrRichText3.SizeF = New System.Drawing.SizeF(374.65!, 58.41998!)
+        Me.XrRichText3.StylePriority.UseFont = False
+        '
+        'XrLabel8
+        '
+        Me.XrLabel8.Dpi = 254.0!
+        Me.XrLabel8.Font = New DevExpress.Drawing.DXFont("Calibri", 11.0!)
+        Me.XrLabel8.LocationFloat = New DevExpress.Utils.PointFloat(105.8333!, 1454.187!)
+        Me.XrLabel8.Name = "XrLabel8"
+        Me.XrLabel8.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254.0!)
+        Me.XrLabel8.SizeF = New System.Drawing.SizeF(445.8231!, 58.42004!)
+        Me.XrLabel8.StylePriority.UseFont = False
+        Me.XrLabel8.StylePriority.UseTextAlignment = False
+        Me.XrLabel8.Text = "Customer's Comment :"
+        Me.XrLabel8.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
+        '
+        'XrCheckBox8
+        '
+        Me.XrCheckBox8.Dpi = 254.0!
+        Me.XrCheckBox8.Font = New DevExpress.Drawing.DXFont("Calibri", 11.0!)
+        Me.XrCheckBox8.LocationFloat = New DevExpress.Utils.PointFloat(1160.859!, 1180.849!)
+        Me.XrCheckBox8.Name = "XrCheckBox8"
+        Me.XrCheckBox8.SizeF = New System.Drawing.SizeF(492.1249!, 58.41998!)
+        Me.XrCheckBox8.StylePriority.UseFont = False
+        Me.XrCheckBox8.Text = "          Other"
+        '
+        'XrCheckBox9
+        '
+        Me.XrCheckBox9.Dpi = 254.0!
+        Me.XrCheckBox9.Font = New DevExpress.Drawing.DXFont("Calibri", 11.0!)
+        Me.XrCheckBox9.LocationFloat = New DevExpress.Utils.PointFloat(1160.859!, 1084.143!)
+        Me.XrCheckBox9.Name = "XrCheckBox9"
+        Me.XrCheckBox9.SizeF = New System.Drawing.SizeF(492.1249!, 58.4198!)
+        Me.XrCheckBox9.StylePriority.UseFont = False
+        Me.XrCheckBox9.Text = "          Variable Speed Drive"
+        '
+        'XrCheckBox10
+        '
+        Me.XrCheckBox10.Dpi = 254.0!
+        Me.XrCheckBox10.Font = New DevExpress.Drawing.DXFont("Calibri", 11.0!)
+        Me.XrCheckBox10.LocationFloat = New DevExpress.Utils.PointFloat(1160.859!, 987.4358!)
+        Me.XrCheckBox10.Name = "XrCheckBox10"
+        Me.XrCheckBox10.SizeF = New System.Drawing.SizeF(492.1249!, 58.42004!)
+        Me.XrCheckBox10.StylePriority.UseFont = False
+        Me.XrCheckBox10.Text = "          Soft Starter"
+        '
+        'XrCheckBox7
+        '
+        Me.XrCheckBox7.Dpi = 254.0!
+        Me.XrCheckBox7.Font = New DevExpress.Drawing.DXFont("Calibri", 11.0!)
+        Me.XrCheckBox7.LocationFloat = New DevExpress.Utils.PointFloat(182.5625!, 1277.555!)
+        Me.XrCheckBox7.Name = "XrCheckBox7"
+        Me.XrCheckBox7.SizeF = New System.Drawing.SizeF(459.0521!, 58.42004!)
+        Me.XrCheckBox7.StylePriority.UseFont = False
+        Me.XrCheckBox7.Text = "          Two Speed Drive"
+        '
+        'XrCheckBox4
+        '
+        Me.XrCheckBox4.Dpi = 254.0!
+        Me.XrCheckBox4.Font = New DevExpress.Drawing.DXFont("Calibri", 11.0!)
+        Me.XrCheckBox4.LocationFloat = New DevExpress.Utils.PointFloat(182.5625!, 987.4358!)
+        Me.XrCheckBox4.Name = "XrCheckBox4"
+        Me.XrCheckBox4.SizeF = New System.Drawing.SizeF(459.0521!, 58.42004!)
+        Me.XrCheckBox4.StylePriority.UseFont = False
+        Me.XrCheckBox4.Text = "          Direct Online"
+        '
+        'XrCheckBox5
+        '
+        Me.XrCheckBox5.Dpi = 254.0!
+        Me.XrCheckBox5.Font = New DevExpress.Drawing.DXFont("Calibri", 11.0!)
+        Me.XrCheckBox5.LocationFloat = New DevExpress.Utils.PointFloat(182.5625!, 1084.142!)
+        Me.XrCheckBox5.Name = "XrCheckBox5"
+        Me.XrCheckBox5.SizeF = New System.Drawing.SizeF(459.0521!, 58.42004!)
+        Me.XrCheckBox5.StylePriority.UseFont = False
+        Me.XrCheckBox5.Text = "          Star Delta"
+        '
+        'XrCheckBox6
+        '
+        Me.XrCheckBox6.Dpi = 254.0!
+        Me.XrCheckBox6.Font = New DevExpress.Drawing.DXFont("Calibri", 11.0!)
+        Me.XrCheckBox6.LocationFloat = New DevExpress.Utils.PointFloat(182.5625!, 1180.849!)
+        Me.XrCheckBox6.Name = "XrCheckBox6"
+        Me.XrCheckBox6.SizeF = New System.Drawing.SizeF(459.0521!, 58.41998!)
+        Me.XrCheckBox6.StylePriority.UseFont = False
+        Me.XrCheckBox6.Text = "          Star Delta"
+        '
+        'XrLabel7
+        '
+        Me.XrLabel7.Dpi = 254.0!
+        Me.XrLabel7.Font = New DevExpress.Drawing.DXFont("Calibri", 11.0!)
+        Me.XrLabel7.LocationFloat = New DevExpress.Utils.PointFloat(105.8333!, 847.2067!)
+        Me.XrLabel7.Name = "XrLabel7"
+        Me.XrLabel7.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254.0!)
+        Me.XrLabel7.SizeF = New System.Drawing.SizeF(445.823!, 58.41998!)
+        Me.XrLabel7.StylePriority.UseFont = False
+        Me.XrLabel7.StylePriority.UseTextAlignment = False
+        Me.XrLabel7.Text = "Control Drawings design :"
+        Me.XrLabel7.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
+        '
+        'XrCheckBox3
+        '
+        Me.XrCheckBox3.Dpi = 254.0!
+        Me.XrCheckBox3.Font = New DevExpress.Drawing.DXFont("Calibri", 11.0!)
+        Me.XrCheckBox3.LocationFloat = New DevExpress.Utils.PointFloat(182.5625!, 659.6743!)
+        Me.XrCheckBox3.Name = "XrCheckBox3"
+        Me.XrCheckBox3.SizeF = New System.Drawing.SizeF(459.0521!, 58.41998!)
+        Me.XrCheckBox3.StylePriority.UseFont = False
+        Me.XrCheckBox3.Text = "          Control Drawings"
+        '
+        'XrCheckBox2
+        '
+        Me.XrCheckBox2.Dpi = 254.0!
+        Me.XrCheckBox2.Font = New DevExpress.Drawing.DXFont("Calibri", 11.0!)
+        Me.XrCheckBox2.LocationFloat = New DevExpress.Utils.PointFloat(182.5625!, 558.6488!)
+        Me.XrCheckBox2.Name = "XrCheckBox2"
+        Me.XrCheckBox2.SizeF = New System.Drawing.SizeF(459.0521!, 58.41998!)
+        Me.XrCheckBox2.StylePriority.UseFont = False
+        Me.XrCheckBox2.Text = "          Power Drawings"
+        '
+        'XrCheckBox1
+        '
+        Me.XrCheckBox1.Dpi = 254.0!
+        Me.XrCheckBox1.Font = New DevExpress.Drawing.DXFont("Calibri", 11.0!)
+        Me.XrCheckBox1.LocationFloat = New DevExpress.Utils.PointFloat(182.5625!, 457.6233!)
+        Me.XrCheckBox1.Name = "XrCheckBox1"
+        Me.XrCheckBox1.SizeF = New System.Drawing.SizeF(459.0521!, 58.41998!)
+        Me.XrCheckBox1.StylePriority.UseFont = False
+        Me.XrCheckBox1.Text = "          Shop Drawings"
+        '
+        'XrLabel6
+        '
+        Me.XrLabel6.Dpi = 254.0!
+        Me.XrLabel6.Font = New DevExpress.Drawing.DXFont("Calibri", 11.0!)
+        Me.XrLabel6.LocationFloat = New DevExpress.Utils.PointFloat(105.8333!, 357.0815!)
+        Me.XrLabel6.Name = "XrLabel6"
+        Me.XrLabel6.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254.0!)
+        Me.XrLabel6.SizeF = New System.Drawing.SizeF(399.5209!, 58.41998!)
+        Me.XrLabel6.StylePriority.UseFont = False
+        Me.XrLabel6.StylePriority.UseTextAlignment = False
+        Me.XrLabel6.Text = "Type of  Drawings :"
+        Me.XrLabel6.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
+        '
+        'XrLabel5
+        '
+        Me.XrLabel5.Dpi = 254.0!
+        Me.XrLabel5.Font = New DevExpress.Drawing.DXFont("Calibri", 11.0!)
+        Me.XrLabel5.LocationFloat = New DevExpress.Utils.PointFloat(105.8333!, 264.4775!)
+        Me.XrLabel5.Name = "XrLabel5"
+        Me.XrLabel5.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254.0!)
+        Me.XrLabel5.SizeF = New System.Drawing.SizeF(399.5209!, 58.42001!)
+        Me.XrLabel5.StylePriority.UseFont = False
+        Me.XrLabel5.StylePriority.UseTextAlignment = False
+        Me.XrLabel5.Text = "Number of  Drawings :"
+        Me.XrLabel5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
+        '
+        'XrLabel4
+        '
+        Me.XrLabel4.Dpi = 254.0!
+        Me.XrLabel4.Font = New DevExpress.Drawing.DXFont("Calibri", 11.0!)
+        Me.XrLabel4.LocationFloat = New DevExpress.Utils.PointFloat(182.5625!, 150.7067!)
+        Me.XrLabel4.Name = "XrLabel4"
+        Me.XrLabel4.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254.0!)
+        Me.XrLabel4.SizeF = New System.Drawing.SizeF(254.0!, 58.42!)
+        Me.XrLabel4.StylePriority.UseFont = False
+        Me.XrLabel4.StylePriority.UseTextAlignment = False
+        Me.XrLabel4.Text = "Project Name :"
+        Me.XrLabel4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
+        '
+        'XrRichText2
+        '
+        Me.XrRichText2.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Rtf", Nothing, "PAO_Report.PAO_NO")})
+        Me.XrRichText2.Dpi = 254.0!
+        Me.XrRichText2.Font = New DevExpress.Drawing.DXFont("Calibri", 11.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrRichText2.LocationFloat = New DevExpress.Utils.PointFloat(1555.75!, 44.87335!)
+        Me.XrRichText2.Name = "XrRichText2"
+        Me.XrRichText2.SerializableRtfString = resources.GetString("XrRichText2.SerializableRtfString")
+        Me.XrRichText2.SizeF = New System.Drawing.SizeF(254.0!, 58.42!)
+        Me.XrRichText2.StylePriority.UseFont = False
+        '
+        'XrLabel3
+        '
+        Me.XrLabel3.Dpi = 254.0!
+        Me.XrLabel3.Font = New DevExpress.Drawing.DXFont("Calibri", 11.0!)
+        Me.XrLabel3.LocationFloat = New DevExpress.Utils.PointFloat(1254.125!, 44.87335!)
+        Me.XrLabel3.Name = "XrLabel3"
+        Me.XrLabel3.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254.0!)
+        Me.XrLabel3.SizeF = New System.Drawing.SizeF(254.0!, 58.42!)
+        Me.XrLabel3.StylePriority.UseFont = False
+        Me.XrLabel3.StylePriority.UseTextAlignment = False
+        Me.XrLabel3.Text = "P.A.O # :"
+        Me.XrLabel3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
+        '
+        'XrRichText1
+        '
+        Me.XrRichText1.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Rtf", Nothing, "PAO_Report.Order_Date")})
+        Me.XrRichText1.Dpi = 254.0!
+        Me.XrRichText1.Font = New DevExpress.Drawing.DXFont("Calibri", 11.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrRichText1.ForeColor = System.Drawing.Color.Red
+        Me.XrRichText1.LocationFloat = New DevExpress.Utils.PointFloat(418.0417!, 44.87336!)
+        Me.XrRichText1.Name = "XrRichText1"
+        Me.XrRichText1.SerializableRtfString = resources.GetString("XrRichText1.SerializableRtfString")
+        Me.XrRichText1.SizeF = New System.Drawing.SizeF(527.05!, 58.42!)
+        Me.XrRichText1.StylePriority.UseFont = False
+        Me.XrRichText1.StylePriority.UseForeColor = False
+        '
+        'XrLabel1
+        '
+        Me.XrLabel1.Dpi = 254.0!
+        Me.XrLabel1.Font = New DevExpress.Drawing.DXFont("Calibri", 11.0!)
+        Me.XrLabel1.LocationFloat = New DevExpress.Utils.PointFloat(105.8333!, 44.87335!)
+        Me.XrLabel1.Name = "XrLabel1"
+        Me.XrLabel1.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254.0!)
+        Me.XrLabel1.SizeF = New System.Drawing.SizeF(254.0!, 58.42!)
+        Me.XrLabel1.StylePriority.UseFont = False
+        Me.XrLabel1.StylePriority.UseTextAlignment = False
+        Me.XrLabel1.Text = "Date :"
+        Me.XrLabel1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
+        '
+        'SqlDataSource1
+        '
+        Me.SqlDataSource1.ConnectionName = "osama_DB_ECG_Connection 2"
+        Me.SqlDataSource1.Name = "SqlDataSource1"
+        TableQuery1.Name = "PAO_Report"
+        TableInfo1.Name = "PAO_Report"
+        ColumnInfo1.Name = "Order_NO"
+        ColumnInfo2.Name = "Order_Date"
+        ColumnInfo3.Name = "NameCustomer"
+        ColumnInfo4.Name = "Emp_Name"
+        ColumnInfo5.Name = "PAO_NO"
+        ColumnInfo6.Name = "AccountName"
+        ColumnInfo7.Name = "CountDay"
+        TableInfo1.SelectedColumns.AddRange(New DevExpress.DataAccess.Sql.ColumnInfo() {ColumnInfo1, ColumnInfo2, ColumnInfo3, ColumnInfo4, ColumnInfo5, ColumnInfo6, ColumnInfo7})
+        TableQuery1.Tables.AddRange(New DevExpress.DataAccess.Sql.TableInfo() {TableInfo1})
+        Me.SqlDataSource1.Queries.AddRange(New DevExpress.DataAccess.Sql.SqlQuery() {TableQuery1})
+        Me.SqlDataSource1.ResultSchemaSerializable = resources.GetString("SqlDataSource1.ResultSchemaSerializable")
+        '
+        'PAO_Final
+        '
+        Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() {Me.Detail, Me.TopMargin, Me.BottomMargin, Me.ReportHeader, Me.PageHeader})
+        Me.ComponentStorage.AddRange(New System.ComponentModel.IComponent() {Me.SqlDataSource1})
+        Me.DataMember = "PAO_Report"
+        Me.DataSource = Me.SqlDataSource1
+        Me.Dpi = 254.0!
+        Me.Margins = New DevExpress.Drawing.DXMargins(98, 99, 452, 254)
+        Me.PageHeight = 2970
+        Me.PageWidth = 2100
+        Me.PaperKind = DevExpress.Drawing.Printing.DXPaperKind.A4
+        Me.ReportUnit = DevExpress.XtraReports.UI.ReportUnit.TenthsOfAMillimeter
+        Me.ScriptLanguage = DevExpress.XtraReports.ScriptLanguage.VisualBasic
+        Me.Version = "15.2"
+        CType(Me.XrRichText4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.XrRichText3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.XrRichText2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.XrRichText1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
+
+    End Sub
+    Friend WithEvents Detail As DevExpress.XtraReports.UI.DetailBand
+    Friend WithEvents TopMargin As DevExpress.XtraReports.UI.TopMarginBand
+    Friend WithEvents BottomMargin As DevExpress.XtraReports.UI.BottomMarginBand
+    Friend WithEvents ReportHeader As DevExpress.XtraReports.UI.ReportHeaderBand
+    Friend WithEvents PageHeader As DevExpress.XtraReports.UI.PageHeaderBand
+    Friend WithEvents XrLabel2 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel8 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrCheckBox8 As DevExpress.XtraReports.UI.XRCheckBox
+    Friend WithEvents XrCheckBox9 As DevExpress.XtraReports.UI.XRCheckBox
+    Friend WithEvents XrCheckBox10 As DevExpress.XtraReports.UI.XRCheckBox
+    Friend WithEvents XrCheckBox7 As DevExpress.XtraReports.UI.XRCheckBox
+    Friend WithEvents XrCheckBox4 As DevExpress.XtraReports.UI.XRCheckBox
+    Friend WithEvents XrCheckBox5 As DevExpress.XtraReports.UI.XRCheckBox
+    Friend WithEvents XrCheckBox6 As DevExpress.XtraReports.UI.XRCheckBox
+    Friend WithEvents XrLabel7 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrCheckBox3 As DevExpress.XtraReports.UI.XRCheckBox
+    Friend WithEvents XrCheckBox2 As DevExpress.XtraReports.UI.XRCheckBox
+    Friend WithEvents XrCheckBox1 As DevExpress.XtraReports.UI.XRCheckBox
+    Friend WithEvents XrLabel6 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel5 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel4 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrRichText2 As DevExpress.XtraReports.UI.XRRichText
+    Friend WithEvents XrLabel3 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrRichText1 As DevExpress.XtraReports.UI.XRRichText
+    Friend WithEvents XrLabel1 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrRichText3 As DevExpress.XtraReports.UI.XRRichText
+    Friend WithEvents XrLine3 As DevExpress.XtraReports.UI.XRLine
+    Friend WithEvents XrLine2 As DevExpress.XtraReports.UI.XRLine
+    Friend WithEvents XrLine1 As DevExpress.XtraReports.UI.XRLine
+    Friend WithEvents XrLine5 As DevExpress.XtraReports.UI.XRLine
+    Friend WithEvents XrLine4 As DevExpress.XtraReports.UI.XRLine
+    Friend WithEvents XrPictureBox1 As DevExpress.XtraReports.UI.XRPictureBox
+    Friend WithEvents SqlDataSource1 As DevExpress.DataAccess.Sql.SqlDataSource
+    Friend WithEvents XrRichText4 As DevExpress.XtraReports.UI.XRRichText
+End Class

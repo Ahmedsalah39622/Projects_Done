@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DB_ECGDataSet" targetNamespace="http://tempuri.org/DB_ECGDataSet.xsd" xmlns:mstns="http://tempuri.org/DB_ECGDataSet.xsd" xmlns="http://tempuri.org/DB_ECGDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="DB_InterpakConnectionString_New" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DB_InterpakConnectionString_New (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Control_Doc.My.MySettings.GlobalReference.Default.DB_InterpakConnectionString_New" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Vw_EmpTableAdapter" GeneratorDataComponentClassName="Vw_EmpTableAdapter" Name="Vw_Emp" UserDataComponentName="Vw_EmpTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DB_InterpakConnectionString_New (MySettings)" DbObjectName="DB_ECG.dbo.Vw_Emp" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Emp_Code, Emp_Name, NameDir, NameDeprt, JopName FROM dbo.Vw_Emp</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Emp_Code" DataSetColumn="Emp_Code" />
+              <Mapping SourceColumn="Emp_Name" DataSetColumn="Emp_Name" />
+              <Mapping SourceColumn="NameDir" DataSetColumn="NameDir" />
+              <Mapping SourceColumn="NameDeprt" DataSetColumn="NameDeprt" />
+              <Mapping SourceColumn="JopName" DataSetColumn="JopName" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DB_ECGDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DB_ECGDataSet" msprop:Generator_UserDSName="DB_ECGDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Vw_Emp" msprop:Generator_TableClassName="Vw_EmpDataTable" msprop:Generator_TableVarName="tableVw_Emp" msprop:Generator_TablePropName="Vw_Emp" msprop:Generator_RowDeletingName="Vw_EmpRowDeleting" msprop:Generator_RowChangingName="Vw_EmpRowChanging" msprop:Generator_RowEvHandlerName="Vw_EmpRowChangeEventHandler" msprop:Generator_RowDeletedName="Vw_EmpRowDeleted" msprop:Generator_UserTableName="Vw_Emp" msprop:Generator_RowChangedName="Vw_EmpRowChanged" msprop:Generator_RowEvArgName="Vw_EmpRowChangeEvent" msprop:Generator_RowClassName="Vw_EmpRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Emp_Code" msprop:Generator_ColumnVarNameInTable="columnEmp_Code" msprop:Generator_ColumnPropNameInRow="Emp_Code" msprop:Generator_ColumnPropNameInTable="Emp_CodeColumn" msprop:Generator_UserColumnName="Emp_Code" type="xs:decimal" />
+              <xs:element name="Emp_Name" msprop:Generator_ColumnVarNameInTable="columnEmp_Name" msprop:Generator_ColumnPropNameInRow="Emp_Name" msprop:Generator_ColumnPropNameInTable="Emp_NameColumn" msprop:Generator_UserColumnName="Emp_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NameDir" msprop:Generator_ColumnVarNameInTable="columnNameDir" msprop:Generator_ColumnPropNameInRow="NameDir" msprop:Generator_ColumnPropNameInTable="NameDirColumn" msprop:Generator_UserColumnName="NameDir" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NameDeprt" msprop:Generator_ColumnVarNameInTable="columnNameDeprt" msprop:Generator_ColumnPropNameInRow="NameDeprt" msprop:Generator_ColumnPropNameInTable="NameDeprtColumn" msprop:Generator_UserColumnName="NameDeprt" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JopName" msprop:Generator_ColumnVarNameInTable="columnJopName" msprop:Generator_ColumnPropNameInRow="JopName" msprop:Generator_ColumnPropNameInTable="JopNameColumn" msprop:Generator_UserColumnName="JopName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

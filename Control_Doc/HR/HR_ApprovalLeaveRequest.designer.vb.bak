@@ -1,0 +1,593 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Public Class HR_ApprovalLeaveRequest
+    Inherits DevExpress.XtraReports.UI.XtraReport
+
+    'XtraReport overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        If disposing AndAlso components IsNot Nothing Then
+            components.Dispose()
+        End If
+        MyBase.Dispose(disposing)
+    End Sub
+
+    'Required by the Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Designer
+    'It can be modified using the Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim TableQuery1 As DevExpress.DataAccess.Sql.TableQuery = New DevExpress.DataAccess.Sql.TableQuery()
+        Dim TableInfo1 As DevExpress.DataAccess.Sql.TableInfo = New DevExpress.DataAccess.Sql.TableInfo()
+        Dim ColumnInfo1 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo2 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo3 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo4 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo5 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo6 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo7 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo8 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo9 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo10 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo11 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo12 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo13 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo14 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(HR_ApprovalLeaveRequest))
+        Dim TableQuery2 As DevExpress.DataAccess.Sql.TableQuery = New DevExpress.DataAccess.Sql.TableQuery()
+        Dim TableInfo2 As DevExpress.DataAccess.Sql.TableInfo = New DevExpress.DataAccess.Sql.TableInfo()
+        Dim ColumnInfo15 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo16 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo17 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo18 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo19 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo20 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo21 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo22 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo23 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo24 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo25 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo26 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo27 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo28 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo29 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Me.Detail = New DevExpress.XtraReports.UI.DetailBand()
+        Me.XrTable1 = New DevExpress.XtraReports.UI.XRTable()
+        Me.XrTableRow1 = New DevExpress.XtraReports.UI.XRTableRow()
+        Me.XrTableCell1 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell2 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell3 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell4 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell5 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell6 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell7 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell8 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell17 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell21 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell22 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.TopMargin = New DevExpress.XtraReports.UI.TopMarginBand()
+        Me.XrPictureBox1 = New DevExpress.XtraReports.UI.XRPictureBox()
+        Me.BottomMargin = New DevExpress.XtraReports.UI.BottomMarginBand()
+        Me.XrPageInfo2 = New DevExpress.XtraReports.UI.XRPageInfo()
+        Me.XrPageInfo1 = New DevExpress.XtraReports.UI.XRPageInfo()
+        Me.ReportHeader = New DevExpress.XtraReports.UI.ReportHeaderBand()
+        Me.X_Date2 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.X_Date1 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel11 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel10 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel1 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel2 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrTable2 = New DevExpress.XtraReports.UI.XRTable()
+        Me.XrTableRow2 = New DevExpress.XtraReports.UI.XRTableRow()
+        Me.XrTableCell9 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell10 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell11 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell12 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell13 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell14 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell15 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell16 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell18 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell20 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell19 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.PageFooter = New DevExpress.XtraReports.UI.PageFooterBand()
+        Me.ReportFooter = New DevExpress.XtraReports.UI.ReportFooterBand()
+        Me.SqlDataSource1 = New DevExpress.DataAccess.Sql.SqlDataSource(Me.components)
+        Me.SqlDataSource2 = New DevExpress.DataAccess.Sql.SqlDataSource(Me.components)
+        CType(Me.XrTable1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.XrTable2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
+        '
+        'Detail
+        '
+        Me.Detail.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrTable1})
+        Me.Detail.Dpi = 254.0!
+        Me.Detail.HeightF = 98.01854!
+        Me.Detail.Name = "Detail"
+        Me.Detail.Padding = New DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 254.0!)
+        Me.Detail.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft
+        '
+        'XrTable1
+        '
+        Me.XrTable1.Borders = CType((((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) _
+            Or DevExpress.XtraPrinting.BorderSide.Right) _
+            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
+        Me.XrTable1.Dpi = 254.0!
+        Me.XrTable1.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.XrTable1.LocationFloat = New DevExpress.Utils.PointFloat(0.0002270937!, 0.0!)
+        Me.XrTable1.Name = "XrTable1"
+        Me.XrTable1.Rows.AddRange(New DevExpress.XtraReports.UI.XRTableRow() {Me.XrTableRow1})
+        Me.XrTable1.SizeF = New System.Drawing.SizeF(1901.0!, 98.01854!)
+        Me.XrTable1.StylePriority.UseBorders = False
+        Me.XrTable1.StylePriority.UseFont = False
+        Me.XrTable1.StylePriority.UseTextAlignment = False
+        Me.XrTable1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrTableRow1
+        '
+        Me.XrTableRow1.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell1, Me.XrTableCell2, Me.XrTableCell3, Me.XrTableCell4, Me.XrTableCell5, Me.XrTableCell6, Me.XrTableCell7, Me.XrTableCell8, Me.XrTableCell17, Me.XrTableCell21, Me.XrTableCell22})
+        Me.XrTableRow1.Dpi = 254.0!
+        Me.XrTableRow1.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.XrTableRow1.Name = "XrTableRow1"
+        Me.XrTableRow1.StylePriority.UseFont = False
+        Me.XrTableRow1.Weight = 1.0R
+        '
+        'XrTableCell1
+        '
+        Me.XrTableCell1.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Vw_OrderVaction.Status")})
+        Me.XrTableCell1.Dpi = 254.0!
+        Me.XrTableCell1.Name = "XrTableCell1"
+        Me.XrTableCell1.Weight = 0.87808195393971389R
+        '
+        'XrTableCell2
+        '
+        Me.XrTableCell2.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Vw_OrderVaction.CountDay")})
+        Me.XrTableCell2.Dpi = 254.0!
+        Me.XrTableCell2.Name = "XrTableCell2"
+        Me.XrTableCell2.Weight = 0.63707958525431174R
+        '
+        'XrTableCell3
+        '
+        Me.XrTableCell3.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Vw_OrderVaction.Resone_Vaction")})
+        Me.XrTableCell3.Dpi = 254.0!
+        Me.XrTableCell3.Name = "XrTableCell3"
+        Me.XrTableCell3.Weight = 1.0614150361200063R
+        '
+        'XrTableCell4
+        '
+        Me.XrTableCell4.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Vw_OrderVaction.EndDate", "{0:dd/MM/yyyy}")})
+        Me.XrTableCell4.Dpi = 254.0!
+        Me.XrTableCell4.Name = "XrTableCell4"
+        Me.XrTableCell4.Weight = 0.98692580105644323R
+        '
+        'XrTableCell5
+        '
+        Me.XrTableCell5.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Vw_OrderVaction.FromDate", "{0:dd/MM/yyyy}")})
+        Me.XrTableCell5.Dpi = 254.0!
+        Me.XrTableCell5.Name = "XrTableCell5"
+        Me.XrTableCell5.Weight = 0.98252457382292746R
+        '
+        'XrTableCell6
+        '
+        Me.XrTableCell6.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Vw_OrderVaction.Name")})
+        Me.XrTableCell6.Dpi = 254.0!
+        Me.XrTableCell6.Name = "XrTableCell6"
+        Me.XrTableCell6.Weight = 0.8574937781046621R
+        '
+        'XrTableCell7
+        '
+        Me.XrTableCell7.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Vw_OrderVaction.jopname")})
+        Me.XrTableCell7.Dpi = 254.0!
+        Me.XrTableCell7.Name = "XrTableCell7"
+        Me.XrTableCell7.Weight = 0.92523907746143608R
+        '
+        'XrTableCell8
+        '
+        Me.XrTableCell8.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Vw_OrderVaction.Deprt")})
+        Me.XrTableCell8.Dpi = 254.0!
+        Me.XrTableCell8.Name = "XrTableCell8"
+        Me.XrTableCell8.Weight = 1.2707047978476333R
+        '
+        'XrTableCell17
+        '
+        Me.XrTableCell17.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Vw_OrderVaction.Emp_Name")})
+        Me.XrTableCell17.Dpi = 254.0!
+        Me.XrTableCell17.Name = "XrTableCell17"
+        Me.XrTableCell17.Weight = 2.0062502643958937R
+        '
+        'XrTableCell21
+        '
+        Me.XrTableCell21.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Vw_OrderVaction.Code_Emp")})
+        Me.XrTableCell21.Dpi = 254.0!
+        Me.XrTableCell21.Name = "XrTableCell21"
+        Me.XrTableCell21.Weight = 0.69643749880869132R
+        '
+        'XrTableCell22
+        '
+        Me.XrTableCell22.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Vw_OrderVaction.No_Order")})
+        Me.XrTableCell22.Dpi = 254.0!
+        Me.XrTableCell22.Name = "XrTableCell22"
+        Me.XrTableCell22.Weight = 0.6474295167229458R
+        '
+        'TopMargin
+        '
+        Me.TopMargin.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrPictureBox1})
+        Me.TopMargin.Dpi = 254.0!
+        Me.TopMargin.HeightF = 449.0!
+        Me.TopMargin.Name = "TopMargin"
+        Me.TopMargin.Padding = New DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 254.0!)
+        Me.TopMargin.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft
+        '
+        'XrPictureBox1
+        '
+        Me.XrPictureBox1.Dpi = 254.0!
+        Me.XrPictureBox1.ImageUrl = "C:\logo\1.jpg"
+        Me.XrPictureBox1.LocationFloat = New DevExpress.Utils.PointFloat(602.7292!, 22.02725!)
+        Me.XrPictureBox1.Name = "XrPictureBox1"
+        Me.XrPictureBox1.SizeF = New System.Drawing.SizeF(695.7072!, 426.7436!)
+        Me.XrPictureBox1.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage
+        '
+        'BottomMargin
+        '
+        Me.BottomMargin.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrPageInfo2, Me.XrPageInfo1})
+        Me.BottomMargin.Dpi = 254.0!
+        Me.BottomMargin.HeightF = 254.0!
+        Me.BottomMargin.Name = "BottomMargin"
+        Me.BottomMargin.Padding = New DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 254.0!)
+        Me.BottomMargin.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft
+        '
+        'XrPageInfo2
+        '
+        Me.XrPageInfo2.Dpi = 254.0!
+        Me.XrPageInfo2.LocationFloat = New DevExpress.Utils.PointFloat(100.0!, 25.0!)
+        Me.XrPageInfo2.Name = "XrPageInfo2"
+        Me.XrPageInfo2.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254.0!)
+        Me.XrPageInfo2.PageInfo = DevExpress.XtraPrinting.PageInfo.DateTime
+        Me.XrPageInfo2.SizeF = New System.Drawing.SizeF(430.3889!, 58.41999!)
+        Me.XrPageInfo2.StylePriority.UseTextAlignment = False
+        Me.XrPageInfo2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrPageInfo1
+        '
+        Me.XrPageInfo1.Dpi = 254.0!
+        Me.XrPageInfo1.LocationFloat = New DevExpress.Utils.PointFloat(820.376!, 25.0!)
+        Me.XrPageInfo1.Name = "XrPageInfo1"
+        Me.XrPageInfo1.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254.0!)
+        Me.XrPageInfo1.SizeF = New System.Drawing.SizeF(254.0!, 58.41999!)
+        Me.XrPageInfo1.StylePriority.UseTextAlignment = False
+        Me.XrPageInfo1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'ReportHeader
+        '
+        Me.ReportHeader.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.X_Date2, Me.X_Date1, Me.XrLabel11, Me.XrLabel10, Me.XrLabel1, Me.XrLabel2, Me.XrTable2})
+        Me.ReportHeader.Dpi = 254.0!
+        Me.ReportHeader.HeightF = 395.7733!
+        Me.ReportHeader.Name = "ReportHeader"
+        '
+        'X_Date2
+        '
+        Me.X_Date2.BackColor = System.Drawing.Color.White
+        Me.X_Date2.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Vw_OrderVaction.yy")})
+        Me.X_Date2.Dpi = 254.0!
+        Me.X_Date2.Font = New System.Drawing.Font("Times New Roman", 10.0!)
+        Me.X_Date2.LocationFloat = New DevExpress.Utils.PointFloat(570.6419!, 215.6137!)
+        Me.X_Date2.Name = "X_Date2"
+        Me.X_Date2.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254.0!)
+        Me.X_Date2.SizeF = New System.Drawing.SizeF(249.7342!, 44.97916!)
+        Me.X_Date2.StylePriority.UseBackColor = False
+        Me.X_Date2.StylePriority.UseFont = False
+        Me.X_Date2.StylePriority.UseTextAlignment = False
+        Me.X_Date2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight
+        '
+        'X_Date1
+        '
+        Me.X_Date1.BackColor = System.Drawing.Color.White
+        Me.X_Date1.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Vw_OrderVaction.mm")})
+        Me.X_Date1.Dpi = 254.0!
+        Me.X_Date1.Font = New System.Drawing.Font("Times New Roman", 10.0!)
+        Me.X_Date1.LocationFloat = New DevExpress.Utils.PointFloat(974.689!, 215.6137!)
+        Me.X_Date1.Name = "X_Date1"
+        Me.X_Date1.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254.0!)
+        Me.X_Date1.SizeF = New System.Drawing.SizeF(166.6875!, 44.97916!)
+        Me.X_Date1.StylePriority.UseBackColor = False
+        Me.X_Date1.StylePriority.UseFont = False
+        Me.X_Date1.StylePriority.UseTextAlignment = False
+        Me.X_Date1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight
+        '
+        'XrLabel11
+        '
+        Me.XrLabel11.BackColor = System.Drawing.Color.Transparent
+        Me.XrLabel11.Dpi = 254.0!
+        Me.XrLabel11.Font = New System.Drawing.Font("Tahoma", 10.0!)
+        Me.XrLabel11.ForeColor = System.Drawing.Color.Black
+        Me.XrLabel11.LocationFloat = New DevExpress.Utils.PointFloat(820.376!, 215.6137!)
+        Me.XrLabel11.Name = "XrLabel11"
+        Me.XrLabel11.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254.0!)
+        Me.XrLabel11.SizeF = New System.Drawing.SizeF(149.7542!, 44.97916!)
+        Me.XrLabel11.StylePriority.UseBackColor = False
+        Me.XrLabel11.StylePriority.UseFont = False
+        Me.XrLabel11.StylePriority.UseForeColor = False
+        Me.XrLabel11.StylePriority.UseTextAlignment = False
+        Me.XrLabel11.Text = ": سنة"
+        Me.XrLabel11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter
+        '
+        'XrLabel10
+        '
+        Me.XrLabel10.BackColor = System.Drawing.Color.Transparent
+        Me.XrLabel10.Dpi = 254.0!
+        Me.XrLabel10.Font = New System.Drawing.Font("Tahoma", 10.0!)
+        Me.XrLabel10.ForeColor = System.Drawing.Color.Black
+        Me.XrLabel10.LocationFloat = New DevExpress.Utils.PointFloat(1151.96!, 215.6137!)
+        Me.XrLabel10.Name = "XrLabel10"
+        Me.XrLabel10.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254.0!)
+        Me.XrLabel10.SizeF = New System.Drawing.SizeF(198.4375!, 44.97916!)
+        Me.XrLabel10.StylePriority.UseBackColor = False
+        Me.XrLabel10.StylePriority.UseFont = False
+        Me.XrLabel10.StylePriority.UseForeColor = False
+        Me.XrLabel10.StylePriority.UseTextAlignment = False
+        Me.XrLabel10.Text = ": شهر"
+        Me.XrLabel10.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter
+        '
+        'XrLabel1
+        '
+        Me.XrLabel1.Borders = DevExpress.XtraPrinting.BorderSide.Bottom
+        Me.XrLabel1.Dpi = 254.0!
+        Me.XrLabel1.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.XrLabel1.LocationFloat = New DevExpress.Utils.PointFloat(699.0082!, 0.0!)
+        Me.XrLabel1.Name = "XrLabel1"
+        Me.XrLabel1.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254.0!)
+        Me.XrLabel1.SizeF = New System.Drawing.SizeF(503.1493!, 100.0!)
+        Me.XrLabel1.StylePriority.UseBorders = False
+        Me.XrLabel1.StylePriority.UseFont = False
+        Me.XrLabel1.StylePriority.UseTextAlignment = False
+        Me.XrLabel1.Text = "إعتماد طلب الأجازة"
+        Me.XrLabel1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel2
+        '
+        Me.XrLabel2.Borders = DevExpress.XtraPrinting.BorderSide.Bottom
+        Me.XrLabel2.Dpi = 254.0!
+        Me.XrLabel2.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.XrLabel2.LocationFloat = New DevExpress.Utils.PointFloat(550.7682!, 99.99998!)
+        Me.XrLabel2.Name = "XrLabel2"
+        Me.XrLabel2.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 0, 0, 254.0!)
+        Me.XrLabel2.SizeF = New System.Drawing.SizeF(799.6293!, 101.7177!)
+        Me.XrLabel2.StylePriority.UseBorders = False
+        Me.XrLabel2.StylePriority.UseFont = False
+        Me.XrLabel2.StylePriority.UseTextAlignment = False
+        Me.XrLabel2.Text = "Approval of Leave Request"
+        Me.XrLabel2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrTable2
+        '
+        Me.XrTable2.Borders = CType((((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) _
+            Or DevExpress.XtraPrinting.BorderSide.Right) _
+            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
+        Me.XrTable2.Dpi = 254.0!
+        Me.XrTable2.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.XrTable2.LocationFloat = New DevExpress.Utils.PointFloat(0.0!, 284.5844!)
+        Me.XrTable2.Name = "XrTable2"
+        Me.XrTable2.Rows.AddRange(New DevExpress.XtraReports.UI.XRTableRow() {Me.XrTableRow2})
+        Me.XrTable2.SizeF = New System.Drawing.SizeF(1901.0!, 111.1889!)
+        Me.XrTable2.StylePriority.UseBorders = False
+        Me.XrTable2.StylePriority.UseFont = False
+        Me.XrTable2.StylePriority.UseTextAlignment = False
+        Me.XrTable2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrTableRow2
+        '
+        Me.XrTableRow2.BackColor = System.Drawing.Color.Silver
+        Me.XrTableRow2.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell9, Me.XrTableCell10, Me.XrTableCell11, Me.XrTableCell12, Me.XrTableCell13, Me.XrTableCell14, Me.XrTableCell15, Me.XrTableCell16, Me.XrTableCell18, Me.XrTableCell20, Me.XrTableCell19})
+        Me.XrTableRow2.Dpi = 254.0!
+        Me.XrTableRow2.Name = "XrTableRow2"
+        Me.XrTableRow2.StylePriority.UseBackColor = False
+        Me.XrTableRow2.Weight = 0.7665262975413103R
+        '
+        'XrTableCell9
+        '
+        Me.XrTableCell9.Dpi = 254.0!
+        Me.XrTableCell9.Name = "XrTableCell9"
+        Me.XrTableCell9.Text = "الحالة"
+        Me.XrTableCell9.Weight = 0.87808195393971389R
+        '
+        'XrTableCell10
+        '
+        Me.XrTableCell10.Dpi = 254.0!
+        Me.XrTableCell10.Name = "XrTableCell10"
+        Me.XrTableCell10.Text = "عدد أيام الأجازة"
+        Me.XrTableCell10.Weight = 0.637079673143507R
+        '
+        'XrTableCell11
+        '
+        Me.XrTableCell11.Dpi = 254.0!
+        Me.XrTableCell11.Name = "XrTableCell11"
+        Me.XrTableCell11.Text = "سبب الأجازة"
+        Me.XrTableCell11.Weight = 1.0614163544579365R
+        '
+        'XrTableCell12
+        '
+        Me.XrTableCell12.Dpi = 254.0!
+        Me.XrTableCell12.Name = "XrTableCell12"
+        Me.XrTableCell12.Text = "إلي فترة"
+        Me.XrTableCell12.Weight = 0.98692586697333939R
+        '
+        'XrTableCell13
+        '
+        Me.XrTableCell13.Dpi = 254.0!
+        Me.XrTableCell13.Name = "XrTableCell13"
+        Me.XrTableCell13.Text = "من فترة"
+        Me.XrTableCell13.Weight = 0.9825245518506287R
+        '
+        'XrTableCell14
+        '
+        Me.XrTableCell14.Dpi = 254.0!
+        Me.XrTableCell14.Name = "XrTableCell14"
+        Me.XrTableCell14.Text = "نوع الأجازة"
+        Me.XrTableCell14.Weight = 0.8574930310465021R
+        '
+        'XrTableCell15
+        '
+        Me.XrTableCell15.Dpi = 254.0!
+        Me.XrTableCell15.Name = "XrTableCell15"
+        Me.XrTableCell15.Text = "الوظيفة"
+        Me.XrTableCell15.Weight = 0.92524048368856082R
+        '
+        'XrTableCell16
+        '
+        Me.XrTableCell16.Dpi = 254.0!
+        Me.XrTableCell16.Name = "XrTableCell16"
+        Me.XrTableCell16.Text = "القسم"
+        Me.XrTableCell16.Weight = 1.2707040947340709R
+        '
+        'XrTableCell18
+        '
+        Me.XrTableCell18.Dpi = 254.0!
+        Me.XrTableCell18.Name = "XrTableCell18"
+        Me.XrTableCell18.Text = "اسم الموظف"
+        Me.XrTableCell18.Weight = 2.0062502643958933R
+        '
+        'XrTableCell20
+        '
+        Me.XrTableCell20.Dpi = 254.0!
+        Me.XrTableCell20.Name = "XrTableCell20"
+        Me.XrTableCell20.Text = "كود الموظف"
+        Me.XrTableCell20.Weight = 0.6964374988086911R
+        '
+        'XrTableCell19
+        '
+        Me.XrTableCell19.Dpi = 254.0!
+        Me.XrTableCell19.Name = "XrTableCell19"
+        Me.XrTableCell19.Text = "رقم الطلب"
+        Me.XrTableCell19.Weight = 0.64742811049582083R
+        '
+        'PageFooter
+        '
+        Me.PageFooter.Dpi = 254.0!
+        Me.PageFooter.Expanded = False
+        Me.PageFooter.HeightF = 254.0!
+        Me.PageFooter.Name = "PageFooter"
+        '
+        'ReportFooter
+        '
+        Me.ReportFooter.Dpi = 254.0!
+        Me.ReportFooter.Expanded = False
+        Me.ReportFooter.HeightF = 254.0!
+        Me.ReportFooter.Name = "ReportFooter"
+        '
+        'SqlDataSource1
+        '
+        Me.SqlDataSource1.ConnectionName = "osama_DB_ECG_Connection 1"
+        Me.SqlDataSource1.Name = "SqlDataSource1"
+        TableQuery1.Name = "Vw_OrderVaction"
+        TableInfo1.Name = "Vw_OrderVaction"
+        ColumnInfo1.Name = "No_Order"
+        ColumnInfo2.Name = "Date_Entry"
+        ColumnInfo3.Name = "Code_Emp"
+        ColumnInfo4.Name = "Emp_Name"
+        ColumnInfo5.Name = "Name"
+        ColumnInfo6.Name = "FromDate"
+        ColumnInfo7.Name = "EndDate"
+        ColumnInfo8.Name = "Resone_Vaction"
+        ColumnInfo9.Name = "Dir"
+        ColumnInfo10.Name = "Deprt"
+        ColumnInfo11.Name = "jopname"
+        ColumnInfo12.Name = "Status"
+        ColumnInfo13.Name = "mm"
+        ColumnInfo14.Name = "yy"
+        TableInfo1.SelectedColumns.AddRange(New DevExpress.DataAccess.Sql.ColumnInfo() {ColumnInfo1, ColumnInfo2, ColumnInfo3, ColumnInfo4, ColumnInfo5, ColumnInfo6, ColumnInfo7, ColumnInfo8, ColumnInfo9, ColumnInfo10, ColumnInfo11, ColumnInfo12, ColumnInfo13, ColumnInfo14})
+        TableQuery1.Tables.AddRange(New DevExpress.DataAccess.Sql.TableInfo() {TableInfo1})
+        Me.SqlDataSource1.Queries.AddRange(New DevExpress.DataAccess.Sql.SqlQuery() {TableQuery1})
+        Me.SqlDataSource1.ResultSchemaSerializable = resources.GetString("SqlDataSource1.ResultSchemaSerializable")
+        '
+        'SqlDataSource2
+        '
+        Me.SqlDataSource2.ConnectionName = "osama_DB_ECG_Connection 1"
+        Me.SqlDataSource2.Name = "SqlDataSource2"
+        TableQuery2.Name = "Vw_OrderVaction"
+        TableInfo2.Name = "Vw_OrderVaction"
+        ColumnInfo15.Name = "No_Order"
+        ColumnInfo16.Name = "Date_Entry"
+        ColumnInfo17.Name = "Code_Emp"
+        ColumnInfo18.Name = "Emp_Name"
+        ColumnInfo19.Name = "Name"
+        ColumnInfo20.Name = "FromDate"
+        ColumnInfo21.Name = "EndDate"
+        ColumnInfo22.Name = "Resone_Vaction"
+        ColumnInfo23.Name = "Dir"
+        ColumnInfo24.Name = "Deprt"
+        ColumnInfo25.Name = "jopname"
+        ColumnInfo26.Name = "Status"
+        ColumnInfo27.Name = "mm"
+        ColumnInfo28.Name = "yy"
+        ColumnInfo29.Name = "CountDay"
+        TableInfo2.SelectedColumns.AddRange(New DevExpress.DataAccess.Sql.ColumnInfo() {ColumnInfo15, ColumnInfo16, ColumnInfo17, ColumnInfo18, ColumnInfo19, ColumnInfo20, ColumnInfo21, ColumnInfo22, ColumnInfo23, ColumnInfo24, ColumnInfo25, ColumnInfo26, ColumnInfo27, ColumnInfo28, ColumnInfo29})
+        TableQuery2.Tables.AddRange(New DevExpress.DataAccess.Sql.TableInfo() {TableInfo2})
+        Me.SqlDataSource2.Queries.AddRange(New DevExpress.DataAccess.Sql.SqlQuery() {TableQuery2})
+        Me.SqlDataSource2.ResultSchemaSerializable = resources.GetString("SqlDataSource2.ResultSchemaSerializable")
+        '
+        'HR_ApprovalLeaveRequest
+        '
+        Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() {Me.Detail, Me.TopMargin, Me.BottomMargin, Me.ReportHeader, Me.PageFooter, Me.ReportFooter})
+        Me.ComponentStorage.AddRange(New System.ComponentModel.IComponent() {Me.SqlDataSource1, Me.SqlDataSource2})
+        Me.DataMember = "Vw_OrderVaction"
+        Me.DataSource = Me.SqlDataSource2
+        Me.Dpi = 254.0!
+        Me.Margins = New System.Drawing.Printing.Margins(101, 98, 449, 254)
+        Me.PageHeight = 2970
+        Me.PageWidth = 2100
+        Me.PaperKind = System.Drawing.Printing.PaperKind.A4
+        Me.ReportUnit = DevExpress.XtraReports.UI.ReportUnit.TenthsOfAMillimeter
+        Me.ScriptLanguage = DevExpress.XtraReports.ScriptLanguage.VisualBasic
+        Me.Version = "15.2"
+        CType(Me.XrTable1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.XrTable2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
+
+    End Sub
+    Friend WithEvents Detail As DevExpress.XtraReports.UI.DetailBand
+    Friend WithEvents TopMargin As DevExpress.XtraReports.UI.TopMarginBand
+    Friend WithEvents BottomMargin As DevExpress.XtraReports.UI.BottomMarginBand
+    Friend WithEvents ReportHeader As DevExpress.XtraReports.UI.ReportHeaderBand
+    Friend WithEvents PageFooter As DevExpress.XtraReports.UI.PageFooterBand
+    Friend WithEvents ReportFooter As DevExpress.XtraReports.UI.ReportFooterBand
+    Friend WithEvents XrPictureBox1 As DevExpress.XtraReports.UI.XRPictureBox
+    Friend WithEvents XrLabel1 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel2 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrTable2 As DevExpress.XtraReports.UI.XRTable
+    Friend WithEvents XrTableRow2 As DevExpress.XtraReports.UI.XRTableRow
+    Friend WithEvents XrTableCell9 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell10 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell11 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell12 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell13 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell14 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell15 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell16 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrPageInfo2 As DevExpress.XtraReports.UI.XRPageInfo
+    Friend WithEvents XrPageInfo1 As DevExpress.XtraReports.UI.XRPageInfo
+    Friend WithEvents XrTableCell18 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell20 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell19 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTable1 As DevExpress.XtraReports.UI.XRTable
+    Friend WithEvents XrTableRow1 As DevExpress.XtraReports.UI.XRTableRow
+    Friend WithEvents XrTableCell1 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell2 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell3 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell4 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell5 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell6 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell7 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell8 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell17 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell21 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell22 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents X_Date2 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents X_Date1 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel11 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel10 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents SqlDataSource1 As DevExpress.DataAccess.Sql.SqlDataSource
+    Friend WithEvents SqlDataSource2 As DevExpress.DataAccess.Sql.SqlDataSource
+End Class

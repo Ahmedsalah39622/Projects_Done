@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DB_EpslonDataSet1" targetNamespace="http://tempuri.org/DB_EpslonDataSet1.xsd" xmlns:mstns="http://tempuri.org/DB_EpslonDataSet1.xsd" xmlns="http://tempuri.org/DB_EpslonDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="DB_Test2" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DB_Test2 (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Control_Doc.My.MySettings.GlobalReference.Default.DB_Test2" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Vw_allSalse_PivetTableAdapter" GeneratorDataComponentClassName="Vw_allSalse_PivetTableAdapter" Name="Vw_allSalse_Pivet" UserDataComponentName="Vw_allSalse_PivetTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DB_Test2 (MySettings)" DbObjectName="DB_Epslon.dbo.Vw_allSalse_Pivet" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT Emp_Name, Name, mm, Total_Sal, TotalRecipt, rem, ns
+FROM     Vw_allSalse_Pivet</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Emp_Name" DataSetColumn="Emp_Name" />
+              <Mapping SourceColumn="Name" DataSetColumn="Name" />
+              <Mapping SourceColumn="Total_Sal" DataSetColumn="Total_Sal" />
+              <Mapping SourceColumn="TotalRecipt" DataSetColumn="TotalRecipt" />
+              <Mapping SourceColumn="rem" DataSetColumn="rem" />
+              <Mapping SourceColumn="ns" DataSetColumn="ns" />
+              <Mapping SourceColumn="mm" DataSetColumn="mm1" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DB_EpslonDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DB_EpslonDataSet1" msprop:Generator_UserDSName="DB_EpslonDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Vw_allSalse_Pivet" msprop:Generator_TableClassName="Vw_allSalse_PivetDataTable" msprop:Generator_TableVarName="tableVw_allSalse_Pivet" msprop:Generator_TablePropName="Vw_allSalse_Pivet" msprop:Generator_RowDeletingName="Vw_allSalse_PivetRowDeleting" msprop:Generator_RowChangingName="Vw_allSalse_PivetRowChanging" msprop:Generator_RowEvHandlerName="Vw_allSalse_PivetRowChangeEventHandler" msprop:Generator_RowDeletedName="Vw_allSalse_PivetRowDeleted" msprop:Generator_UserTableName="Vw_allSalse_Pivet" msprop:Generator_RowChangedName="Vw_allSalse_PivetRowChanged" msprop:Generator_RowEvArgName="Vw_allSalse_PivetRowChangeEvent" msprop:Generator_RowClassName="Vw_allSalse_PivetRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Emp_Name" msprop:Generator_ColumnVarNameInTable="columnEmp_Name" msprop:Generator_ColumnPropNameInRow="Emp_Name" msprop:Generator_ColumnPropNameInTable="Emp_NameColumn" msprop:Generator_UserColumnName="Emp_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="mm" msprop:Generator_ColumnVarNameInTable="columnmm" msprop:Generator_ColumnPropNameInRow="mm" msprop:Generator_ColumnPropNameInTable="mmColumn" msprop:Generator_UserColumnName="mm" type="xs:int" minOccurs="0" />
+              <xs:element name="Total_Sal" msprop:Generator_ColumnVarNameInTable="columnTotal_Sal" msprop:Generator_ColumnPropNameInRow="Total_Sal" msprop:Generator_ColumnPropNameInTable="Total_SalColumn" msprop:Generator_UserColumnName="Total_Sal" type="xs:double" minOccurs="0" />
+              <xs:element name="TotalRecipt" msprop:Generator_ColumnVarNameInTable="columnTotalRecipt" msprop:Generator_ColumnPropNameInRow="TotalRecipt" msprop:Generator_ColumnPropNameInTable="TotalReciptColumn" msprop:Generator_UserColumnName="TotalRecipt" type="xs:double" minOccurs="0" />
+              <xs:element name="rem" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnrem" msprop:Generator_ColumnPropNameInRow="_rem" msprop:Generator_ColumnPropNameInTable="remColumn" msprop:Generator_UserColumnName="rem" type="xs:double" minOccurs="0" />
+              <xs:element name="ns" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnns" msprop:Generator_ColumnPropNameInRow="ns" msprop:Generator_ColumnPropNameInTable="nsColumn" msprop:Generator_UserColumnName="ns" type="xs:double" minOccurs="0" />
+              <xs:element name="mm1" msdata:ReadOnly="true" msdata:Caption="mm" msprop:Generator_ColumnVarNameInTable="columnmm1" msprop:Generator_ColumnPropNameInRow="mm1" msprop:Generator_ColumnPropNameInTable="mm1Column" msprop:Generator_UserColumnName="mm1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

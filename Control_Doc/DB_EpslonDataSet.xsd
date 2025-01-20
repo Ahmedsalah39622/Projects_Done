@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DB_EpslonDataSet" targetNamespace="http://tempuri.org/DB_EpslonDataSet.xsd" xmlns:mstns="http://tempuri.org/DB_EpslonDataSet.xsd" xmlns="http://tempuri.org/DB_EpslonDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="DB_InterpakConnectionString_New" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DB_InterpakConnectionString_New (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Control_Doc.My.MySettings.GlobalReference.Default.DB_InterpakConnectionString_New" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vw_Sal_CustomerYearTableAdapter" GeneratorDataComponentClassName="vw_Sal_CustomerYearTableAdapter" Name="vw_Sal_CustomerYear" UserDataComponentName="vw_Sal_CustomerYearTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DB_InterpakConnectionString_New (MySettings)" DbObjectName="DB_Epslon.dbo.vw_Sal_CustomerYear" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT Name, Total_Sal, mm, YY
+FROM     vw_Sal_CustomerYear</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Name" DataSetColumn="Name" />
+              <Mapping SourceColumn="Total_Sal" DataSetColumn="Total_Sal" />
+              <Mapping SourceColumn="mm" DataSetColumn="mm" />
+              <Mapping SourceColumn="YY" DataSetColumn="YY" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DB_EpslonDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DB_EpslonDataSet" msprop:Generator_UserDSName="DB_EpslonDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vw_Sal_CustomerYear" msprop:Generator_TableClassName="vw_Sal_CustomerYearDataTable" msprop:Generator_TableVarName="tablevw_Sal_CustomerYear" msprop:Generator_RowChangedName="vw_Sal_CustomerYearRowChanged" msprop:Generator_TablePropName="vw_Sal_CustomerYear" msprop:Generator_RowDeletingName="vw_Sal_CustomerYearRowDeleting" msprop:Generator_RowChangingName="vw_Sal_CustomerYearRowChanging" msprop:Generator_RowEvHandlerName="vw_Sal_CustomerYearRowChangeEventHandler" msprop:Generator_RowDeletedName="vw_Sal_CustomerYearRowDeleted" msprop:Generator_RowClassName="vw_Sal_CustomerYearRow" msprop:Generator_UserTableName="vw_Sal_CustomerYear" msprop:Generator_RowEvArgName="vw_Sal_CustomerYearRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Total_Sal" msprop:Generator_ColumnVarNameInTable="columnTotal_Sal" msprop:Generator_ColumnPropNameInRow="Total_Sal" msprop:Generator_ColumnPropNameInTable="Total_SalColumn" msprop:Generator_UserColumnName="Total_Sal" type="xs:double" minOccurs="0" />
+              <xs:element name="mm" msprop:Generator_ColumnVarNameInTable="columnmm" msprop:Generator_ColumnPropNameInRow="mm" msprop:Generator_ColumnPropNameInTable="mmColumn" msprop:Generator_UserColumnName="mm" type="xs:int" minOccurs="0" />
+              <xs:element name="YY" msprop:Generator_ColumnVarNameInTable="columnYY" msprop:Generator_ColumnPropNameInRow="YY" msprop:Generator_ColumnPropNameInTable="YYColumn" msprop:Generator_UserColumnName="YY" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

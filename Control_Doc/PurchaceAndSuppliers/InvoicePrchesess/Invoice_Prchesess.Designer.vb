@@ -1,0 +1,1238 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Public Class Invoice_Prchesess
+    Inherits DevExpress.XtraReports.UI.XtraReport
+
+    'XtraReport overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        If disposing AndAlso components IsNot Nothing Then
+            components.Dispose()
+        End If
+        MyBase.Dispose(disposing)
+    End Sub
+
+    'Required by the Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Designer
+    'It can be modified using the Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim XrSummary1 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Invoice_Prchesess))
+        Dim XrSummary2 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
+        Dim XrSummary3 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
+        Dim XrSummary4 As DevExpress.XtraReports.UI.XRSummary = New DevExpress.XtraReports.UI.XRSummary()
+        Dim TableQuery1 As DevExpress.DataAccess.Sql.TableQuery = New DevExpress.DataAccess.Sql.TableQuery()
+        Dim TableInfo1 As DevExpress.DataAccess.Sql.TableInfo = New DevExpress.DataAccess.Sql.TableInfo()
+        Dim ColumnInfo1 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo2 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo3 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo4 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo5 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo6 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo7 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo8 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo9 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo10 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo11 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo12 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo13 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo14 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo15 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo16 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo17 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo18 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Dim ColumnInfo19 As DevExpress.DataAccess.Sql.ColumnInfo = New DevExpress.DataAccess.Sql.ColumnInfo()
+        Me.Detail = New DevExpress.XtraReports.UI.DetailBand()
+        Me.XrTable1 = New DevExpress.XtraReports.UI.XRTable()
+        Me.XrTableRow1 = New DevExpress.XtraReports.UI.XRTableRow()
+        Me.XrTableCell1 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell3 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell2 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell4 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell5 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell6 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrLabel21 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.TopMargin = New DevExpress.XtraReports.UI.TopMarginBand()
+        Me.LabInvoice_Type = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel19 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel24 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel28 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel31 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel27 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel37 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel32 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel23 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel38 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel25 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrPictureBox1 = New DevExpress.XtraReports.UI.XRPictureBox()
+        Me.XrLabel6 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel39 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel34 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel29 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel2 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel10 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel4 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel3 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.BottomMargin = New DevExpress.XtraReports.UI.BottomMarginBand()
+        Me.lab_Fotter = New DevExpress.XtraReports.UI.XRLabel()
+        Me.ReportHeader = New DevExpress.XtraReports.UI.ReportHeaderBand()
+        Me.XrLabel44 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel11 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel9 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel5 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel17 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel7 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel8 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.GroupFooter1 = New DevExpress.XtraReports.UI.GroupFooterBand()
+        Me.lab_discount = New DevExpress.XtraReports.UI.XRLabel()
+        Me.Lab_SB = New DevExpress.XtraReports.UI.XRLabel()
+        Me.lab_Box = New DevExpress.XtraReports.UI.XRLabel()
+        Me.Lab_Codation2 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.LabTfket = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel45 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel43 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLine5 = New DevExpress.XtraReports.UI.XRLine()
+        Me.XrLabel42 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLine4 = New DevExpress.XtraReports.UI.XRLine()
+        Me.XrLine2 = New DevExpress.XtraReports.UI.XRLine()
+        Me.XrLine1 = New DevExpress.XtraReports.UI.XRLine()
+        Me.XrLabel41 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel22 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel40 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel26 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel35 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.Lab_Codation1 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel14 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel18 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel15 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel13 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel49 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.XrLabel48 = New DevExpress.XtraReports.UI.XRLabel()
+        Me.PageInfo = New DevExpress.XtraReports.UI.XRControlStyle()
+        Me.Calculateddiscount = New DevExpress.XtraReports.UI.CalculatedField()
+        Me.SqlDataSource3 = New DevExpress.DataAccess.Sql.SqlDataSource(Me.components)
+        CType(Me.XrTable1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
+        '
+        'Detail
+        '
+        Me.Detail.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrTable1, Me.XrLabel21})
+        Me.Detail.HeightF = 16.66667!
+        Me.Detail.KeepTogether = True
+        Me.Detail.Name = "Detail"
+        Me.Detail.Padding = New DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100.0!)
+        Me.Detail.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft
+        '
+        'XrTable1
+        '
+        Me.XrTable1.Font = New DevExpress.Drawing.DXFont("Times New Roman", 8.25!, DevExpress.Drawing.DXFontStyle.Regular, DevExpress.Drawing.DXGraphicsUnit.Point, New DevExpress.Drawing.DXFontAdditionalProperty() {New DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", CType(0, Byte))})
+        Me.XrTable1.LocationFloat = New DevExpress.Utils.PointFloat(10.00001!, 0.0!)
+        Me.XrTable1.Name = "XrTable1"
+        Me.XrTable1.OddStyleName = "PageInfo"
+        Me.XrTable1.Rows.AddRange(New DevExpress.XtraReports.UI.XRTableRow() {Me.XrTableRow1})
+        Me.XrTable1.SizeF = New System.Drawing.SizeF(743.7395!, 15.0!)
+        Me.XrTable1.StylePriority.UseFont = False
+        '
+        'XrTableRow1
+        '
+        Me.XrTableRow1.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell1, Me.XrTableCell3, Me.XrTableCell2, Me.XrTableCell4, Me.XrTableCell5, Me.XrTableCell6})
+        Me.XrTableRow1.Name = "XrTableRow1"
+        Me.XrTableRow1.Weight = 1.0R
+        '
+        'XrTableCell1
+        '
+        Me.XrTableCell1.BorderColor = System.Drawing.Color.White
+        Me.XrTableCell1.Borders = DevExpress.XtraPrinting.BorderSide.Right
+        Me.XrTableCell1.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Vw_DetilsInvoice2.Total_Item", "{0:n2}")})
+        Me.XrTableCell1.Font = New DevExpress.Drawing.DXFont("Tahoma", 9.0!)
+        Me.XrTableCell1.Name = "XrTableCell1"
+        Me.XrTableCell1.OddStyleName = "PageInfo"
+        Me.XrTableCell1.StylePriority.UseBorderColor = False
+        Me.XrTableCell1.StylePriority.UseBorders = False
+        Me.XrTableCell1.StylePriority.UseFont = False
+        Me.XrTableCell1.StylePriority.UseTextAlignment = False
+        Me.XrTableCell1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        Me.XrTableCell1.Weight = 2.2835828510810861R
+        '
+        'XrTableCell3
+        '
+        Me.XrTableCell3.BorderColor = System.Drawing.Color.White
+        Me.XrTableCell3.Borders = DevExpress.XtraPrinting.BorderSide.Right
+        Me.XrTableCell3.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Vw_DetilsInvoice2.Price_Item", "{0:n2}")})
+        Me.XrTableCell3.Font = New DevExpress.Drawing.DXFont("Tahoma", 9.0!)
+        Me.XrTableCell3.Name = "XrTableCell3"
+        Me.XrTableCell3.StylePriority.UseBorderColor = False
+        Me.XrTableCell3.StylePriority.UseBorders = False
+        Me.XrTableCell3.StylePriority.UseFont = False
+        Me.XrTableCell3.StylePriority.UseTextAlignment = False
+        Me.XrTableCell3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        Me.XrTableCell3.Weight = 1.9756970614062537R
+        '
+        'XrTableCell2
+        '
+        Me.XrTableCell2.BorderColor = System.Drawing.Color.White
+        Me.XrTableCell2.Borders = DevExpress.XtraPrinting.BorderSide.Right
+        Me.XrTableCell2.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Vw_DetilsInvoice2.Quntity")})
+        Me.XrTableCell2.Font = New DevExpress.Drawing.DXFont("Tahoma", 9.0!)
+        Me.XrTableCell2.Name = "XrTableCell2"
+        Me.XrTableCell2.StylePriority.UseBorderColor = False
+        Me.XrTableCell2.StylePriority.UseBorders = False
+        Me.XrTableCell2.StylePriority.UseFont = False
+        Me.XrTableCell2.StylePriority.UseTextAlignment = False
+        Me.XrTableCell2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        Me.XrTableCell2.Weight = 1.6753384536621532R
+        '
+        'XrTableCell4
+        '
+        Me.XrTableCell4.BorderColor = System.Drawing.Color.White
+        Me.XrTableCell4.Borders = DevExpress.XtraPrinting.BorderSide.Right
+        Me.XrTableCell4.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Vw_DetilsInvoice2.Unit")})
+        Me.XrTableCell4.Font = New DevExpress.Drawing.DXFont("Tahoma", 9.0!)
+        Me.XrTableCell4.Name = "XrTableCell4"
+        Me.XrTableCell4.StylePriority.UseBorderColor = False
+        Me.XrTableCell4.StylePriority.UseBorders = False
+        Me.XrTableCell4.StylePriority.UseFont = False
+        Me.XrTableCell4.StylePriority.UseTextAlignment = False
+        Me.XrTableCell4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        Me.XrTableCell4.Weight = 1.5694126973692346R
+        '
+        'XrTableCell5
+        '
+        Me.XrTableCell5.BorderColor = System.Drawing.Color.White
+        Me.XrTableCell5.Borders = DevExpress.XtraPrinting.BorderSide.Right
+        Me.XrTableCell5.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Vw_DetilsInvoice2.Name")})
+        Me.XrTableCell5.Font = New DevExpress.Drawing.DXFont("Tahoma", 9.0!)
+        Me.XrTableCell5.Name = "XrTableCell5"
+        Me.XrTableCell5.StylePriority.UseBorderColor = False
+        Me.XrTableCell5.StylePriority.UseBorders = False
+        Me.XrTableCell5.StylePriority.UseFont = False
+        Me.XrTableCell5.StylePriority.UseTextAlignment = False
+        Me.XrTableCell5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        Me.XrTableCell5.Weight = 6.4727892733497434R
+        '
+        'XrTableCell6
+        '
+        Me.XrTableCell6.BorderColor = System.Drawing.Color.White
+        Me.XrTableCell6.Borders = DevExpress.XtraPrinting.BorderSide.Right
+        Me.XrTableCell6.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Vw_DetilsInvoice2.No_Item")})
+        Me.XrTableCell6.Font = New DevExpress.Drawing.DXFont("Tahoma", 9.0!)
+        Me.XrTableCell6.Name = "XrTableCell6"
+        Me.XrTableCell6.StylePriority.UseBorderColor = False
+        Me.XrTableCell6.StylePriority.UseBorders = False
+        Me.XrTableCell6.StylePriority.UseFont = False
+        Me.XrTableCell6.StylePriority.UseTextAlignment = False
+        Me.XrTableCell6.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        Me.XrTableCell6.Weight = 1.5602235821674795R
+        '
+        'XrLabel21
+        '
+        Me.XrLabel21.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Rpt_Invoice2.No_Item")})
+        Me.XrLabel21.Font = New DevExpress.Drawing.DXFont("Tahoma", 9.0!, DevExpress.Drawing.DXFontStyle.Regular, DevExpress.Drawing.DXGraphicsUnit.Point, New DevExpress.Drawing.DXFontAdditionalProperty() {New DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", CType(0, Byte))})
+        Me.XrLabel21.LocationFloat = New DevExpress.Utils.PointFloat(753.7397!, 0.0!)
+        Me.XrLabel21.Name = "XrLabel21"
+        Me.XrLabel21.OddStyleName = "PageInfo"
+        Me.XrLabel21.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel21.SizeF = New System.Drawing.SizeF(41.26025!, 15.0!)
+        Me.XrLabel21.StylePriority.UseFont = False
+        Me.XrLabel21.StylePriority.UseTextAlignment = False
+        XrSummary1.FormatString = "{0:}"
+        XrSummary1.Func = DevExpress.XtraReports.UI.SummaryFunc.RecordNumber
+        XrSummary1.IgnoreNullValues = True
+        XrSummary1.Running = DevExpress.XtraReports.UI.SummaryRunning.Page
+        Me.XrLabel21.Summary = XrSummary1
+        Me.XrLabel21.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter
+        '
+        'TopMargin
+        '
+        Me.TopMargin.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.LabInvoice_Type, Me.XrLabel19, Me.XrLabel24, Me.XrLabel28, Me.XrLabel31, Me.XrLabel27, Me.XrLabel37, Me.XrLabel32, Me.XrLabel23, Me.XrLabel38, Me.XrLabel25, Me.XrPictureBox1, Me.XrLabel6, Me.XrLabel39, Me.XrLabel34, Me.XrLabel29, Me.XrLabel2, Me.XrLabel10})
+        Me.TopMargin.HeightF = 240.0834!
+        Me.TopMargin.Name = "TopMargin"
+        Me.TopMargin.Padding = New DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100.0!)
+        Me.TopMargin.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft
+        '
+        'LabInvoice_Type
+        '
+        Me.LabInvoice_Type.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.LabInvoice_Type.Font = New DevExpress.Drawing.DXFont("Tahoma", 9.0!)
+        Me.LabInvoice_Type.ForeColor = System.Drawing.Color.Black
+        Me.LabInvoice_Type.LocationFloat = New DevExpress.Utils.PointFloat(545.2916!, 177.7292!)
+        Me.LabInvoice_Type.Name = "LabInvoice_Type"
+        Me.LabInvoice_Type.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.LabInvoice_Type.SizeF = New System.Drawing.SizeF(130.5743!, 23.95836!)
+        Me.LabInvoice_Type.StylePriority.UseBackColor = False
+        Me.LabInvoice_Type.StylePriority.UseFont = False
+        Me.LabInvoice_Type.StylePriority.UseForeColor = False
+        Me.LabInvoice_Type.StylePriority.UseTextAlignment = False
+        Me.LabInvoice_Type.Text = "أجل"
+        Me.LabInvoice_Type.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel19
+        '
+        Me.XrLabel19.BackColor = System.Drawing.Color.Transparent
+        Me.XrLabel19.Font = New DevExpress.Drawing.DXFont("Tahoma", 12.0!)
+        Me.XrLabel19.ForeColor = System.Drawing.Color.Black
+        Me.XrLabel19.LocationFloat = New DevExpress.Utils.PointFloat(381.7089!, 95.3541!)
+        Me.XrLabel19.Name = "XrLabel19"
+        Me.XrLabel19.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel19.SizeF = New System.Drawing.SizeF(128.2401!, 26.04169!)
+        Me.XrLabel19.StylePriority.UseBackColor = False
+        Me.XrLabel19.StylePriority.UseFont = False
+        Me.XrLabel19.StylePriority.UseForeColor = False
+        Me.XrLabel19.StylePriority.UseTextAlignment = False
+        Me.XrLabel19.Text = "فاتورة - مشتريات"
+        Me.XrLabel19.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel24
+        '
+        Me.XrLabel24.BackColor = System.Drawing.Color.Black
+        Me.XrLabel24.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel24.ForeColor = System.Drawing.Color.White
+        Me.XrLabel24.LocationFloat = New DevExpress.Utils.PointFloat(12.5!, 131.7291!)
+        Me.XrLabel24.Name = "XrLabel24"
+        Me.XrLabel24.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel24.SizeF = New System.Drawing.SizeF(359.2089!, 22.99996!)
+        Me.XrLabel24.StylePriority.UseBackColor = False
+        Me.XrLabel24.StylePriority.UseFont = False
+        Me.XrLabel24.StylePriority.UseForeColor = False
+        Me.XrLabel24.StylePriority.UseTextAlignment = False
+        Me.XrLabel24.Text = ": بيانات المورد"
+        Me.XrLabel24.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel28
+        '
+        Me.XrLabel28.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.XrLabel28.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!)
+        Me.XrLabel28.LocationFloat = New DevExpress.Utils.PointFloat(316.5306!, 174.9374!)
+        Me.XrLabel28.Multiline = True
+        Me.XrLabel28.Name = "XrLabel28"
+        Me.XrLabel28.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel28.SizeF = New System.Drawing.SizeF(55.17822!, 20.20831!)
+        Me.XrLabel28.StylePriority.UseBackColor = False
+        Me.XrLabel28.StylePriority.UseFont = False
+        Me.XrLabel28.StylePriority.UseTextAlignment = False
+        Me.XrLabel28.Text = ": التليفون"
+        Me.XrLabel28.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel31
+        '
+        Me.XrLabel31.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.XrLabel31.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Vw_DetilsInvoice2.AccountName")})
+        Me.XrLabel31.Font = New DevExpress.Drawing.DXFont("Tahoma", 9.0!)
+        Me.XrLabel31.LocationFloat = New DevExpress.Utils.PointFloat(12.50005!, 154.729!)
+        Me.XrLabel31.Name = "XrLabel31"
+        Me.XrLabel31.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel31.SizeF = New System.Drawing.SizeF(304.0305!, 20.20836!)
+        Me.XrLabel31.StylePriority.UseBackColor = False
+        Me.XrLabel31.StylePriority.UseFont = False
+        Me.XrLabel31.StylePriority.UseTextAlignment = False
+        Me.XrLabel31.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel27
+        '
+        Me.XrLabel27.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.XrLabel27.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Rpt_Invoice2.Customer_Phon1")})
+        Me.XrLabel27.Font = New DevExpress.Drawing.DXFont("Tahoma", 9.0!)
+        Me.XrLabel27.LocationFloat = New DevExpress.Utils.PointFloat(12.5001!, 174.9374!)
+        Me.XrLabel27.Name = "XrLabel27"
+        Me.XrLabel27.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel27.SizeF = New System.Drawing.SizeF(304.0305!, 20.20839!)
+        Me.XrLabel27.StylePriority.UseBackColor = False
+        Me.XrLabel27.StylePriority.UseFont = False
+        Me.XrLabel27.StylePriority.UseTextAlignment = False
+        Me.XrLabel27.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel37
+        '
+        Me.XrLabel37.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.XrLabel37.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Rpt_Invoice2.Customer_Address", "{0}")})
+        Me.XrLabel37.Font = New DevExpress.Drawing.DXFont("Tahoma", 9.0!)
+        Me.XrLabel37.LocationFloat = New DevExpress.Utils.PointFloat(12.5!, 195.1457!)
+        Me.XrLabel37.Name = "XrLabel37"
+        Me.XrLabel37.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel37.SizeF = New System.Drawing.SizeF(304.0307!, 20.2084!)
+        Me.XrLabel37.StylePriority.UseBackColor = False
+        Me.XrLabel37.StylePriority.UseFont = False
+        Me.XrLabel37.StylePriority.UseTextAlignment = False
+        Me.XrLabel37.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel32
+        '
+        Me.XrLabel32.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.XrLabel32.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Rpt_Invoice2.Customer_Email", "{0}")})
+        Me.XrLabel32.Font = New DevExpress.Drawing.DXFont("Tahoma", 9.0!)
+        Me.XrLabel32.LocationFloat = New DevExpress.Utils.PointFloat(12.5!, 215.354!)
+        Me.XrLabel32.Name = "XrLabel32"
+        Me.XrLabel32.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel32.SizeF = New System.Drawing.SizeF(304.0307!, 20.2084!)
+        Me.XrLabel32.StylePriority.UseBackColor = False
+        Me.XrLabel32.StylePriority.UseFont = False
+        Me.XrLabel32.StylePriority.UseTextAlignment = False
+        Me.XrLabel32.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel23
+        '
+        Me.XrLabel23.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.XrLabel23.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!)
+        Me.XrLabel23.LocationFloat = New DevExpress.Utils.PointFloat(316.5306!, 215.354!)
+        Me.XrLabel23.Multiline = True
+        Me.XrLabel23.Name = "XrLabel23"
+        Me.XrLabel23.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel23.SizeF = New System.Drawing.SizeF(55.17821!, 20.20831!)
+        Me.XrLabel23.StylePriority.UseBackColor = False
+        Me.XrLabel23.StylePriority.UseFont = False
+        Me.XrLabel23.StylePriority.UseTextAlignment = False
+        Me.XrLabel23.Text = ": الاميل"
+        Me.XrLabel23.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel38
+        '
+        Me.XrLabel38.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.XrLabel38.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!)
+        Me.XrLabel38.LocationFloat = New DevExpress.Utils.PointFloat(316.5306!, 195.1457!)
+        Me.XrLabel38.Multiline = True
+        Me.XrLabel38.Name = "XrLabel38"
+        Me.XrLabel38.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel38.SizeF = New System.Drawing.SizeF(55.17822!, 20.20831!)
+        Me.XrLabel38.StylePriority.UseBackColor = False
+        Me.XrLabel38.StylePriority.UseFont = False
+        Me.XrLabel38.StylePriority.UseTextAlignment = False
+        Me.XrLabel38.Text = ": العنوان"
+        Me.XrLabel38.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel25
+        '
+        Me.XrLabel25.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.XrLabel25.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!)
+        Me.XrLabel25.LocationFloat = New DevExpress.Utils.PointFloat(316.5306!, 154.729!)
+        Me.XrLabel25.Multiline = True
+        Me.XrLabel25.Name = "XrLabel25"
+        Me.XrLabel25.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel25.SizeF = New System.Drawing.SizeF(55.17822!, 20.20831!)
+        Me.XrLabel25.StylePriority.UseBackColor = False
+        Me.XrLabel25.StylePriority.UseFont = False
+        Me.XrLabel25.StylePriority.UseTextAlignment = False
+        Me.XrLabel25.Text = ": الاسم"
+        Me.XrLabel25.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrPictureBox1
+        '
+        Me.XrPictureBox1.Image = CType(resources.GetObject("XrPictureBox1.Image"), System.Drawing.Image)
+        Me.XrPictureBox1.LocationFloat = New DevExpress.Utils.PointFloat(26.01179!, 8.791654!)
+        Me.XrPictureBox1.Name = "XrPictureBox1"
+        Me.XrPictureBox1.SizeF = New System.Drawing.SizeF(224.0639!, 78.79163!)
+        Me.XrPictureBox1.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage
+        '
+        'XrLabel6
+        '
+        Me.XrLabel6.BackColor = System.Drawing.Color.Black
+        Me.XrLabel6.BorderColor = System.Drawing.Color.White
+        Me.XrLabel6.Borders = DevExpress.XtraPrinting.BorderSide.Top
+        Me.XrLabel6.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel6.ForeColor = System.Drawing.Color.White
+        Me.XrLabel6.LocationFloat = New DevExpress.Utils.PointFloat(676.9792!, 178.6875!)
+        Me.XrLabel6.Name = "XrLabel6"
+        Me.XrLabel6.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel6.SizeF = New System.Drawing.SizeF(120.5206!, 22.04169!)
+        Me.XrLabel6.StylePriority.UseBackColor = False
+        Me.XrLabel6.StylePriority.UseBorderColor = False
+        Me.XrLabel6.StylePriority.UseBorders = False
+        Me.XrLabel6.StylePriority.UseFont = False
+        Me.XrLabel6.StylePriority.UseForeColor = False
+        Me.XrLabel6.StylePriority.UseTextAlignment = False
+        Me.XrLabel6.Text = " : نوع الفاتورة"
+        Me.XrLabel6.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel39
+        '
+        Me.XrLabel39.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Rpt_Invoice.Compny_Code", "{0:dd/MM/yyyy}")})
+        Me.XrLabel39.Font = New DevExpress.Drawing.DXFont("Tahoma", 9.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel39.ForeColor = System.Drawing.Color.Black
+        Me.XrLabel39.LocationFloat = New DevExpress.Utils.PointFloat(0.0!, 59.45829!)
+        Me.XrLabel39.Name = "XrLabel39"
+        Me.XrLabel39.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel39.SizeF = New System.Drawing.SizeF(14.8959!, 11.45834!)
+        Me.XrLabel39.StylePriority.UseFont = False
+        Me.XrLabel39.StylePriority.UseForeColor = False
+        Me.XrLabel39.StylePriority.UseTextAlignment = False
+        Me.XrLabel39.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        Me.XrLabel39.Visible = False
+        '
+        'XrLabel34
+        '
+        Me.XrLabel34.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.XrLabel34.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Vw_DetilsInvoice2.InvoiceDate", "{0:dd/MM/yyyy}")})
+        Me.XrLabel34.Font = New DevExpress.Drawing.DXFont("Tahoma", 9.0!)
+        Me.XrLabel34.ForeColor = System.Drawing.Color.Black
+        Me.XrLabel34.LocationFloat = New DevExpress.Utils.PointFloat(545.2914!, 154.7292!)
+        Me.XrLabel34.Name = "XrLabel34"
+        Me.XrLabel34.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel34.SizeF = New System.Drawing.SizeF(131.6879!, 23.00002!)
+        Me.XrLabel34.StylePriority.UseBackColor = False
+        Me.XrLabel34.StylePriority.UseFont = False
+        Me.XrLabel34.StylePriority.UseForeColor = False
+        Me.XrLabel34.StylePriority.UseTextAlignment = False
+        Me.XrLabel34.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel29
+        '
+        Me.XrLabel29.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.XrLabel29.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Vw_DetilsInvoice2.Ext_InvoiceNo")})
+        Me.XrLabel29.Font = New DevExpress.Drawing.DXFont("Tahoma", 9.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel29.ForeColor = System.Drawing.Color.Black
+        Me.XrLabel29.LocationFloat = New DevExpress.Utils.PointFloat(545.2914!, 131.7291!)
+        Me.XrLabel29.Name = "XrLabel29"
+        Me.XrLabel29.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel29.SizeF = New System.Drawing.SizeF(131.6879!, 22.99998!)
+        Me.XrLabel29.StylePriority.UseBackColor = False
+        Me.XrLabel29.StylePriority.UseFont = False
+        Me.XrLabel29.StylePriority.UseForeColor = False
+        Me.XrLabel29.StylePriority.UseTextAlignment = False
+        Me.XrLabel29.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel2
+        '
+        Me.XrLabel2.BackColor = System.Drawing.Color.Black
+        Me.XrLabel2.BorderColor = System.Drawing.Color.White
+        Me.XrLabel2.Borders = DevExpress.XtraPrinting.BorderSide.Top
+        Me.XrLabel2.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel2.ForeColor = System.Drawing.Color.White
+        Me.XrLabel2.LocationFloat = New DevExpress.Utils.PointFloat(676.9792!, 130.7708!)
+        Me.XrLabel2.Name = "XrLabel2"
+        Me.XrLabel2.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel2.SizeF = New System.Drawing.SizeF(120.5206!, 23.95833!)
+        Me.XrLabel2.StylePriority.UseBackColor = False
+        Me.XrLabel2.StylePriority.UseBorderColor = False
+        Me.XrLabel2.StylePriority.UseBorders = False
+        Me.XrLabel2.StylePriority.UseFont = False
+        Me.XrLabel2.StylePriority.UseForeColor = False
+        Me.XrLabel2.StylePriority.UseTextAlignment = False
+        Me.XrLabel2.Text = ": رقم الفاتورة"
+        Me.XrLabel2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel10
+        '
+        Me.XrLabel10.BackColor = System.Drawing.Color.Black
+        Me.XrLabel10.BorderColor = System.Drawing.Color.White
+        Me.XrLabel10.Borders = DevExpress.XtraPrinting.BorderSide.Top
+        Me.XrLabel10.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel10.ForeColor = System.Drawing.Color.White
+        Me.XrLabel10.LocationFloat = New DevExpress.Utils.PointFloat(676.9792!, 154.729!)
+        Me.XrLabel10.Name = "XrLabel10"
+        Me.XrLabel10.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel10.SizeF = New System.Drawing.SizeF(120.5206!, 23.95833!)
+        Me.XrLabel10.StylePriority.UseBackColor = False
+        Me.XrLabel10.StylePriority.UseBorderColor = False
+        Me.XrLabel10.StylePriority.UseBorders = False
+        Me.XrLabel10.StylePriority.UseFont = False
+        Me.XrLabel10.StylePriority.UseForeColor = False
+        Me.XrLabel10.StylePriority.UseTextAlignment = False
+        Me.XrLabel10.Text = ": التاريخ"
+        Me.XrLabel10.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel4
+        '
+        Me.XrLabel4.BackColor = System.Drawing.SystemColors.Control
+        Me.XrLabel4.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Vw_DetilsInvoice2.Notes")})
+        Me.XrLabel4.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel4.LocationFloat = New DevExpress.Utils.PointFloat(17.92979!, 154.7916!)
+        Me.XrLabel4.Name = "XrLabel4"
+        Me.XrLabel4.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel4.SizeF = New System.Drawing.SizeF(749.7391!, 20.10434!)
+        Me.XrLabel4.StylePriority.UseBackColor = False
+        Me.XrLabel4.StylePriority.UseFont = False
+        Me.XrLabel4.StylePriority.UseTextAlignment = False
+        Me.XrLabel4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel3
+        '
+        Me.XrLabel3.BackColor = System.Drawing.Color.Black
+        Me.XrLabel3.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel3.ForeColor = System.Drawing.Color.White
+        Me.XrLabel3.LocationFloat = New DevExpress.Utils.PointFloat(17.92978!, 135.0!)
+        Me.XrLabel3.Name = "XrLabel3"
+        Me.XrLabel3.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel3.SizeF = New System.Drawing.SizeF(749.7392!, 19.79166!)
+        Me.XrLabel3.StylePriority.UseBackColor = False
+        Me.XrLabel3.StylePriority.UseFont = False
+        Me.XrLabel3.StylePriority.UseForeColor = False
+        Me.XrLabel3.StylePriority.UseTextAlignment = False
+        Me.XrLabel3.Text = ": ملاحظات"
+        Me.XrLabel3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'BottomMargin
+        '
+        Me.BottomMargin.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.lab_Fotter})
+        Me.BottomMargin.HeightF = 133.0!
+        Me.BottomMargin.Name = "BottomMargin"
+        Me.BottomMargin.Padding = New DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100.0!)
+        Me.BottomMargin.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft
+        '
+        'lab_Fotter
+        '
+        Me.lab_Fotter.BackColor = System.Drawing.Color.Gainsboro
+        Me.lab_Fotter.Font = New DevExpress.Drawing.DXFont("Tahoma", 10.0!)
+        Me.lab_Fotter.LocationFloat = New DevExpress.Utils.PointFloat(9.999911!, 38.41667!)
+        Me.lab_Fotter.Multiline = True
+        Me.lab_Fotter.Name = "lab_Fotter"
+        Me.lab_Fotter.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.lab_Fotter.SizeF = New System.Drawing.SizeF(806.0002!, 84.58332!)
+        Me.lab_Fotter.StylePriority.UseBackColor = False
+        Me.lab_Fotter.StylePriority.UseFont = False
+        Me.lab_Fotter.StylePriority.UseTextAlignment = False
+        Me.lab_Fotter.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter
+        '
+        'ReportHeader
+        '
+        Me.ReportHeader.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrLabel44, Me.XrLabel11, Me.XrLabel9, Me.XrLabel5, Me.XrLabel17, Me.XrLabel7, Me.XrLabel8})
+        Me.ReportHeader.HeightF = 27.91666!
+        Me.ReportHeader.Name = "ReportHeader"
+        '
+        'XrLabel44
+        '
+        Me.XrLabel44.BackColor = System.Drawing.Color.Black
+        Me.XrLabel44.BorderColor = System.Drawing.Color.White
+        Me.XrLabel44.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.Solid
+        Me.XrLabel44.Borders = CType(((DevExpress.XtraPrinting.BorderSide.Top Or DevExpress.XtraPrinting.BorderSide.Right) _
+            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
+        Me.XrLabel44.BorderWidth = 1.0!
+        Me.XrLabel44.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel44.ForeColor = System.Drawing.Color.White
+        Me.XrLabel44.LocationFloat = New DevExpress.Utils.PointFloat(753.7395!, 0.0!)
+        Me.XrLabel44.Name = "XrLabel44"
+        Me.XrLabel44.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel44.SizeF = New System.Drawing.SizeF(41.26062!, 27.49999!)
+        Me.XrLabel44.StylePriority.UseBackColor = False
+        Me.XrLabel44.StylePriority.UseBorderColor = False
+        Me.XrLabel44.StylePriority.UseBorderDashStyle = False
+        Me.XrLabel44.StylePriority.UseBorders = False
+        Me.XrLabel44.StylePriority.UseBorderWidth = False
+        Me.XrLabel44.StylePriority.UseFont = False
+        Me.XrLabel44.StylePriority.UseForeColor = False
+        Me.XrLabel44.StylePriority.UseTextAlignment = False
+        Me.XrLabel44.Text = "م"
+        Me.XrLabel44.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel11
+        '
+        Me.XrLabel11.BackColor = System.Drawing.Color.Black
+        Me.XrLabel11.BorderColor = System.Drawing.Color.White
+        Me.XrLabel11.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.Solid
+        Me.XrLabel11.Borders = CType(((DevExpress.XtraPrinting.BorderSide.Top Or DevExpress.XtraPrinting.BorderSide.Right) _
+            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
+        Me.XrLabel11.BorderWidth = 1.0!
+        Me.XrLabel11.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel11.ForeColor = System.Drawing.Color.White
+        Me.XrLabel11.LocationFloat = New DevExpress.Utils.PointFloat(682.3334!, 0.0!)
+        Me.XrLabel11.Name = "XrLabel11"
+        Me.XrLabel11.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel11.SizeF = New System.Drawing.SizeF(71.40614!, 27.49999!)
+        Me.XrLabel11.StylePriority.UseBackColor = False
+        Me.XrLabel11.StylePriority.UseBorderColor = False
+        Me.XrLabel11.StylePriority.UseBorderDashStyle = False
+        Me.XrLabel11.StylePriority.UseBorders = False
+        Me.XrLabel11.StylePriority.UseBorderWidth = False
+        Me.XrLabel11.StylePriority.UseFont = False
+        Me.XrLabel11.StylePriority.UseForeColor = False
+        Me.XrLabel11.StylePriority.UseTextAlignment = False
+        Me.XrLabel11.Text = "كود الصنف"
+        Me.XrLabel11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel9
+        '
+        Me.XrLabel9.BackColor = System.Drawing.Color.Black
+        Me.XrLabel9.BorderColor = System.Drawing.Color.White
+        Me.XrLabel9.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.Solid
+        Me.XrLabel9.Borders = CType(((DevExpress.XtraPrinting.BorderSide.Top Or DevExpress.XtraPrinting.BorderSide.Right) _
+            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
+        Me.XrLabel9.BorderWidth = 1.0!
+        Me.XrLabel9.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel9.ForeColor = System.Drawing.Color.White
+        Me.XrLabel9.LocationFloat = New DevExpress.Utils.PointFloat(369.209!, 0.0!)
+        Me.XrLabel9.Name = "XrLabel9"
+        Me.XrLabel9.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel9.SizeF = New System.Drawing.SizeF(313.1245!, 27.49999!)
+        Me.XrLabel9.StylePriority.UseBackColor = False
+        Me.XrLabel9.StylePriority.UseBorderColor = False
+        Me.XrLabel9.StylePriority.UseBorderDashStyle = False
+        Me.XrLabel9.StylePriority.UseBorders = False
+        Me.XrLabel9.StylePriority.UseBorderWidth = False
+        Me.XrLabel9.StylePriority.UseFont = False
+        Me.XrLabel9.StylePriority.UseForeColor = False
+        Me.XrLabel9.StylePriority.UseTextAlignment = False
+        Me.XrLabel9.Text = "بيان الصنف"
+        Me.XrLabel9.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel5
+        '
+        Me.XrLabel5.BackColor = System.Drawing.Color.Black
+        Me.XrLabel5.BorderColor = System.Drawing.Color.White
+        Me.XrLabel5.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.Solid
+        Me.XrLabel5.Borders = CType(((DevExpress.XtraPrinting.BorderSide.Top Or DevExpress.XtraPrinting.BorderSide.Right) _
+            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
+        Me.XrLabel5.BorderWidth = 1.0!
+        Me.XrLabel5.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel5.ForeColor = System.Drawing.Color.White
+        Me.XrLabel5.LocationFloat = New DevExpress.Utils.PointFloat(294.083!, 0.0!)
+        Me.XrLabel5.Name = "XrLabel5"
+        Me.XrLabel5.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel5.SizeF = New System.Drawing.SizeF(75.12589!, 27.49999!)
+        Me.XrLabel5.StylePriority.UseBackColor = False
+        Me.XrLabel5.StylePriority.UseBorderColor = False
+        Me.XrLabel5.StylePriority.UseBorderDashStyle = False
+        Me.XrLabel5.StylePriority.UseBorders = False
+        Me.XrLabel5.StylePriority.UseBorderWidth = False
+        Me.XrLabel5.StylePriority.UseFont = False
+        Me.XrLabel5.StylePriority.UseForeColor = False
+        Me.XrLabel5.StylePriority.UseTextAlignment = False
+        Me.XrLabel5.Text = "الوحدة"
+        Me.XrLabel5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel17
+        '
+        Me.XrLabel17.BackColor = System.Drawing.Color.Black
+        Me.XrLabel17.BorderColor = System.Drawing.Color.White
+        Me.XrLabel17.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.Solid
+        Me.XrLabel17.Borders = CType(((DevExpress.XtraPrinting.BorderSide.Top Or DevExpress.XtraPrinting.BorderSide.Right) _
+            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
+        Me.XrLabel17.BorderWidth = 1.0!
+        Me.XrLabel17.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel17.ForeColor = System.Drawing.Color.White
+        Me.XrLabel17.LocationFloat = New DevExpress.Utils.PointFloat(213.8866!, 0.0!)
+        Me.XrLabel17.Name = "XrLabel17"
+        Me.XrLabel17.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel17.SizeF = New System.Drawing.SizeF(80.19643!, 27.49999!)
+        Me.XrLabel17.StylePriority.UseBackColor = False
+        Me.XrLabel17.StylePriority.UseBorderColor = False
+        Me.XrLabel17.StylePriority.UseBorderDashStyle = False
+        Me.XrLabel17.StylePriority.UseBorders = False
+        Me.XrLabel17.StylePriority.UseBorderWidth = False
+        Me.XrLabel17.StylePriority.UseFont = False
+        Me.XrLabel17.StylePriority.UseForeColor = False
+        Me.XrLabel17.StylePriority.UseTextAlignment = False
+        Me.XrLabel17.Text = "الكمية"
+        Me.XrLabel17.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel7
+        '
+        Me.XrLabel7.BackColor = System.Drawing.Color.Black
+        Me.XrLabel7.BorderColor = System.Drawing.Color.White
+        Me.XrLabel7.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.Solid
+        Me.XrLabel7.Borders = CType(((DevExpress.XtraPrinting.BorderSide.Top Or DevExpress.XtraPrinting.BorderSide.Right) _
+            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
+        Me.XrLabel7.BorderWidth = 1.0!
+        Me.XrLabel7.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel7.ForeColor = System.Drawing.Color.White
+        Me.XrLabel7.LocationFloat = New DevExpress.Utils.PointFloat(119.3124!, 0.0!)
+        Me.XrLabel7.Name = "XrLabel7"
+        Me.XrLabel7.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel7.SizeF = New System.Drawing.SizeF(94.57422!, 27.49999!)
+        Me.XrLabel7.StylePriority.UseBackColor = False
+        Me.XrLabel7.StylePriority.UseBorderColor = False
+        Me.XrLabel7.StylePriority.UseBorderDashStyle = False
+        Me.XrLabel7.StylePriority.UseBorders = False
+        Me.XrLabel7.StylePriority.UseBorderWidth = False
+        Me.XrLabel7.StylePriority.UseFont = False
+        Me.XrLabel7.StylePriority.UseForeColor = False
+        Me.XrLabel7.StylePriority.UseTextAlignment = False
+        Me.XrLabel7.Text = "سعر الوحدة"
+        Me.XrLabel7.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel8
+        '
+        Me.XrLabel8.BackColor = System.Drawing.Color.Black
+        Me.XrLabel8.BorderColor = System.Drawing.Color.White
+        Me.XrLabel8.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.Solid
+        Me.XrLabel8.Borders = CType(((DevExpress.XtraPrinting.BorderSide.Top Or DevExpress.XtraPrinting.BorderSide.Right) _
+            Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
+        Me.XrLabel8.BorderWidth = 1.0!
+        Me.XrLabel8.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel8.ForeColor = System.Drawing.Color.White
+        Me.XrLabel8.LocationFloat = New DevExpress.Utils.PointFloat(10.00001!, 0.0!)
+        Me.XrLabel8.Name = "XrLabel8"
+        Me.XrLabel8.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel8.SizeF = New System.Drawing.SizeF(109.3123!, 27.49999!)
+        Me.XrLabel8.StylePriority.UseBackColor = False
+        Me.XrLabel8.StylePriority.UseBorderColor = False
+        Me.XrLabel8.StylePriority.UseBorderDashStyle = False
+        Me.XrLabel8.StylePriority.UseBorders = False
+        Me.XrLabel8.StylePriority.UseBorderWidth = False
+        Me.XrLabel8.StylePriority.UseFont = False
+        Me.XrLabel8.StylePriority.UseForeColor = False
+        Me.XrLabel8.StylePriority.UseTextAlignment = False
+        Me.XrLabel8.Text = "الاجمالى"
+        Me.XrLabel8.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'GroupFooter1
+        '
+        Me.GroupFooter1.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.lab_discount, Me.Lab_SB, Me.lab_Box, Me.Lab_Codation2, Me.LabTfket, Me.XrLabel45, Me.XrLabel43, Me.XrLine5, Me.XrLabel42, Me.XrLine4, Me.XrLine2, Me.XrLine1, Me.XrLabel41, Me.XrLabel22, Me.XrLabel40, Me.XrLabel26, Me.XrLabel35, Me.Lab_Codation1, Me.XrLabel14, Me.XrLabel18, Me.XrLabel15, Me.XrLabel13, Me.XrLabel49, Me.XrLabel48, Me.XrLabel4, Me.XrLabel3})
+        Me.GroupFooter1.HeightF = 476.25!
+        Me.GroupFooter1.KeepTogether = True
+        Me.GroupFooter1.Name = "GroupFooter1"
+        '
+        'lab_discount
+        '
+        Me.lab_discount.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.lab_discount.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.lab_discount.ForeColor = System.Drawing.Color.Black
+        Me.lab_discount.LocationFloat = New DevExpress.Utils.PointFloat(9.999492!, 47.91667!)
+        Me.lab_discount.Name = "lab_discount"
+        Me.lab_discount.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.lab_discount.SizeF = New System.Drawing.SizeF(119.3782!, 23.0!)
+        Me.lab_discount.StylePriority.UseBackColor = False
+        Me.lab_discount.StylePriority.UseFont = False
+        Me.lab_discount.StylePriority.UseForeColor = False
+        Me.lab_discount.StylePriority.UseTextAlignment = False
+        XrSummary2.FormatString = "{0:n}"
+        Me.lab_discount.Summary = XrSummary2
+        Me.lab_discount.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'Lab_SB
+        '
+        Me.Lab_SB.Angle = 90.0!
+        Me.Lab_SB.BackColor = System.Drawing.Color.Transparent
+        Me.Lab_SB.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!)
+        Me.Lab_SB.LocationFloat = New DevExpress.Utils.PointFloat(793.1136!, 174.896!)
+        Me.Lab_SB.Multiline = True
+        Me.Lab_SB.Name = "Lab_SB"
+        Me.Lab_SB.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.Lab_SB.SizeF = New System.Drawing.SizeF(22.88641!, 103.3334!)
+        Me.Lab_SB.StylePriority.UseBackColor = False
+        Me.Lab_SB.StylePriority.UseFont = False
+        Me.Lab_SB.StylePriority.UseTextAlignment = False
+        Me.Lab_SB.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'lab_Box
+        '
+        Me.lab_Box.Angle = 90.0!
+        Me.lab_Box.BackColor = System.Drawing.Color.Transparent
+        Me.lab_Box.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!)
+        Me.lab_Box.LocationFloat = New DevExpress.Utils.PointFloat(793.1136!, 23.95833!)
+        Me.lab_Box.Multiline = True
+        Me.lab_Box.Name = "lab_Box"
+        Me.lab_Box.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.lab_Box.SizeF = New System.Drawing.SizeF(22.88647!, 150.9376!)
+        Me.lab_Box.StylePriority.UseBackColor = False
+        Me.lab_Box.StylePriority.UseFont = False
+        Me.lab_Box.StylePriority.UseTextAlignment = False
+        Me.lab_Box.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'Lab_Codation2
+        '
+        Me.Lab_Codation2.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.Lab_Codation2.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.25!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.Lab_Codation2.LocationFloat = New DevExpress.Utils.PointFloat(18.96965!, 219.6876!)
+        Me.Lab_Codation2.Name = "Lab_Codation2"
+        Me.Lab_Codation2.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.Lab_Codation2.SizeF = New System.Drawing.SizeF(749.7393!, 20.83331!)
+        Me.Lab_Codation2.StylePriority.UseBackColor = False
+        Me.Lab_Codation2.StylePriority.UseFont = False
+        Me.Lab_Codation2.StylePriority.UseTextAlignment = False
+        Me.Lab_Codation2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'LabTfket
+        '
+        Me.LabTfket.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.LabTfket.Font = New DevExpress.Drawing.DXFont("Tahoma", 9.0!)
+        Me.LabTfket.ForeColor = System.Drawing.Color.DarkRed
+        Me.LabTfket.LocationFloat = New DevExpress.Utils.PointFloat(18.96928!, 101.6666!)
+        Me.LabTfket.Name = "LabTfket"
+        Me.LabTfket.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.LabTfket.SizeF = New System.Drawing.SizeF(655.5101!, 23.95835!)
+        Me.LabTfket.StylePriority.UseBackColor = False
+        Me.LabTfket.StylePriority.UseFont = False
+        Me.LabTfket.StylePriority.UseForeColor = False
+        Me.LabTfket.StylePriority.UseTextAlignment = False
+        Me.LabTfket.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel45
+        '
+        Me.XrLabel45.BackColor = System.Drawing.Color.Black
+        Me.XrLabel45.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.25!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel45.ForeColor = System.Drawing.Color.White
+        Me.XrLabel45.LocationFloat = New DevExpress.Utils.PointFloat(674.4793!, 101.6666!)
+        Me.XrLabel45.Name = "XrLabel45"
+        Me.XrLabel45.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel45.SizeF = New System.Drawing.SizeF(94.22955!, 23.95834!)
+        Me.XrLabel45.StylePriority.UseBackColor = False
+        Me.XrLabel45.StylePriority.UseFont = False
+        Me.XrLabel45.StylePriority.UseForeColor = False
+        Me.XrLabel45.StylePriority.UseTextAlignment = False
+        Me.XrLabel45.Text = ": مبلغ وقدرة"
+        Me.XrLabel45.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel43
+        '
+        Me.XrLabel43.Font = New DevExpress.Drawing.DXFont("Tahoma", 9.75!)
+        Me.XrLabel43.LocationFloat = New DevExpress.Utils.PointFloat(300.1354!, 366.771!)
+        Me.XrLabel43.Multiline = True
+        Me.XrLabel43.Name = "XrLabel43"
+        Me.XrLabel43.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel43.SizeF = New System.Drawing.SizeF(72.95863!, 16.66669!)
+        Me.XrLabel43.StylePriority.UseFont = False
+        Me.XrLabel43.StylePriority.UseTextAlignment = False
+        Me.XrLabel43.Text = "/ التوقيع"
+        Me.XrLabel43.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
+        '
+        'XrLine5
+        '
+        Me.XrLine5.LineStyle = DevExpress.Drawing.DXDashStyle.DashDot
+        Me.XrLine5.LocationFloat = New DevExpress.Utils.PointFloat(67.7841!, 380.3128!)
+        Me.XrLine5.Name = "XrLine5"
+        Me.XrLine5.SizeF = New System.Drawing.SizeF(200.0!, 3.125!)
+        '
+        'XrLabel42
+        '
+        Me.XrLabel42.Font = New DevExpress.Drawing.DXFont("Tahoma", 9.75!)
+        Me.XrLabel42.LocationFloat = New DevExpress.Utils.PointFloat(67.7841!, 323.8545!)
+        Me.XrLabel42.Multiline = True
+        Me.XrLabel42.Name = "XrLabel42"
+        Me.XrLabel42.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel42.SizeF = New System.Drawing.SizeF(185.8098!, 16.66669!)
+        Me.XrLabel42.StylePriority.UseFont = False
+        Me.XrLabel42.StylePriority.UseTextAlignment = False
+        Me.XrLabel42.Text = "المستلم"
+        Me.XrLabel42.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLine4
+        '
+        Me.XrLine4.LineStyle = DevExpress.Drawing.DXDashStyle.DashDot
+        Me.XrLine4.LocationFloat = New DevExpress.Utils.PointFloat(545.4402!, 298.8545!)
+        Me.XrLine4.Name = "XrLine4"
+        Me.XrLine4.SizeF = New System.Drawing.SizeF(200.0!, 3.125!)
+        '
+        'XrLine2
+        '
+        Me.XrLine2.LineStyle = DevExpress.Drawing.DXDashStyle.DashDot
+        Me.XrLine2.LocationFloat = New DevExpress.Utils.PointFloat(74.57716!, 298.8545!)
+        Me.XrLine2.Name = "XrLine2"
+        Me.XrLine2.SizeF = New System.Drawing.SizeF(200.0!, 3.125!)
+        '
+        'XrLine1
+        '
+        Me.XrLine1.LineStyle = DevExpress.Drawing.DXDashStyle.DashDot
+        Me.XrLine1.LocationFloat = New DevExpress.Utils.PointFloat(67.7841!, 351.9795!)
+        Me.XrLine1.Name = "XrLine1"
+        Me.XrLine1.SizeF = New System.Drawing.SizeF(200.0!, 3.125!)
+        '
+        'XrLabel41
+        '
+        Me.XrLabel41.Font = New DevExpress.Drawing.DXFont("Tahoma", 9.75!)
+        Me.XrLabel41.LocationFloat = New DevExpress.Utils.PointFloat(300.1354!, 338.4378!)
+        Me.XrLabel41.Multiline = True
+        Me.XrLabel41.Name = "XrLabel41"
+        Me.XrLabel41.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel41.SizeF = New System.Drawing.SizeF(72.95863!, 16.66669!)
+        Me.XrLabel41.StylePriority.UseFont = False
+        Me.XrLabel41.StylePriority.UseTextAlignment = False
+        Me.XrLabel41.Text = "/ الاســـم"
+        Me.XrLabel41.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
+        '
+        'XrLabel22
+        '
+        Me.XrLabel22.Font = New DevExpress.Drawing.DXFont("Tahoma", 9.75!)
+        Me.XrLabel22.LocationFloat = New DevExpress.Utils.PointFloat(585.5446!, 260.521!)
+        Me.XrLabel22.Name = "XrLabel22"
+        Me.XrLabel22.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel22.SizeF = New System.Drawing.SizeF(136.8658!, 17.70837!)
+        Me.XrLabel22.StylePriority.UseFont = False
+        Me.XrLabel22.StylePriority.UseTextAlignment = False
+        Me.XrLabel22.Text = "المراجع"
+        Me.XrLabel22.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel40
+        '
+        Me.XrLabel40.Font = New DevExpress.Drawing.DXFont("Tahoma", 9.75!)
+        Me.XrLabel40.LocationFloat = New DevExpress.Utils.PointFloat(67.7841!, 260.521!)
+        Me.XrLabel40.Multiline = True
+        Me.XrLabel40.Name = "XrLabel40"
+        Me.XrLabel40.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel40.SizeF = New System.Drawing.SizeF(182.2916!, 17.70839!)
+        Me.XrLabel40.StylePriority.UseFont = False
+        Me.XrLabel40.StylePriority.UseTextAlignment = False
+        Me.XrLabel40.Text = "ادارة المشتريات"
+        Me.XrLabel40.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel26
+        '
+        Me.XrLabel26.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.XrLabel26.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel26.ForeColor = System.Drawing.Color.Black
+        Me.XrLabel26.LocationFloat = New DevExpress.Utils.PointFloat(9.999943!, 23.95833!)
+        Me.XrLabel26.Name = "XrLabel26"
+        Me.XrLabel26.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel26.SizeF = New System.Drawing.SizeF(119.378!, 23.95834!)
+        Me.XrLabel26.StylePriority.UseBackColor = False
+        Me.XrLabel26.StylePriority.UseFont = False
+        Me.XrLabel26.StylePriority.UseForeColor = False
+        Me.XrLabel26.StylePriority.UseTextAlignment = False
+        Me.XrLabel26.Text = "0"
+        Me.XrLabel26.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrLabel35
+        '
+        Me.XrLabel35.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.XrLabel35.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel35.ForeColor = System.Drawing.Color.Black
+        Me.XrLabel35.LocationFloat = New DevExpress.Utils.PointFloat(9.999943!, 72.83331!)
+        Me.XrLabel35.Name = "XrLabel35"
+        Me.XrLabel35.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel35.SizeF = New System.Drawing.SizeF(119.3782!, 23.0!)
+        Me.XrLabel35.StylePriority.UseBackColor = False
+        Me.XrLabel35.StylePriority.UseFont = False
+        Me.XrLabel35.StylePriority.UseForeColor = False
+        Me.XrLabel35.StylePriority.UseTextAlignment = False
+        XrSummary3.FormatString = "{0:n}"
+        Me.XrLabel35.Summary = XrSummary3
+        Me.XrLabel35.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'Lab_Codation1
+        '
+        Me.Lab_Codation1.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.Lab_Codation1.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.25!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.Lab_Codation1.LocationFloat = New DevExpress.Utils.PointFloat(18.96965!, 198.8543!)
+        Me.Lab_Codation1.Name = "Lab_Codation1"
+        Me.Lab_Codation1.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.Lab_Codation1.SizeF = New System.Drawing.SizeF(749.7393!, 20.83331!)
+        Me.Lab_Codation1.StylePriority.UseBackColor = False
+        Me.Lab_Codation1.StylePriority.UseFont = False
+        Me.Lab_Codation1.StylePriority.UseTextAlignment = False
+        Me.Lab_Codation1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel14
+        '
+        Me.XrLabel14.BackColor = System.Drawing.Color.Black
+        Me.XrLabel14.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!, CType((DevExpress.Drawing.DXFontStyle.Bold Or DevExpress.Drawing.DXFontStyle.Underline), DevExpress.Drawing.DXFontStyle))
+        Me.XrLabel14.ForeColor = System.Drawing.Color.White
+        Me.XrLabel14.LocationFloat = New DevExpress.Utils.PointFloat(18.96965!, 174.896!)
+        Me.XrLabel14.Name = "XrLabel14"
+        Me.XrLabel14.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel14.SizeF = New System.Drawing.SizeF(749.7392!, 23.95833!)
+        Me.XrLabel14.StylePriority.UseBackColor = False
+        Me.XrLabel14.StylePriority.UseFont = False
+        Me.XrLabel14.StylePriority.UseForeColor = False
+        Me.XrLabel14.StylePriority.UseTextAlignment = False
+        Me.XrLabel14.Text = ": شروط الدفع"
+        Me.XrLabel14.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel18
+        '
+        Me.XrLabel18.BackColor = System.Drawing.Color.Black
+        Me.XrLabel18.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.25!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel18.ForeColor = System.Drawing.Color.White
+        Me.XrLabel18.LocationFloat = New DevExpress.Utils.PointFloat(129.3777!, 71.875!)
+        Me.XrLabel18.Name = "XrLabel18"
+        Me.XrLabel18.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel18.SizeF = New System.Drawing.SizeF(94.22955!, 23.95834!)
+        Me.XrLabel18.StylePriority.UseBackColor = False
+        Me.XrLabel18.StylePriority.UseFont = False
+        Me.XrLabel18.StylePriority.UseForeColor = False
+        Me.XrLabel18.StylePriority.UseTextAlignment = False
+        Me.XrLabel18.Text = ": مبلغ الفاتورة"
+        Me.XrLabel18.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel15
+        '
+        Me.XrLabel15.BackColor = System.Drawing.Color.Black
+        Me.XrLabel15.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.25!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel15.ForeColor = System.Drawing.Color.White
+        Me.XrLabel15.LocationFloat = New DevExpress.Utils.PointFloat(129.3777!, 47.91667!)
+        Me.XrLabel15.Name = "XrLabel15"
+        Me.XrLabel15.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel15.SizeF = New System.Drawing.SizeF(94.22955!, 23.95833!)
+        Me.XrLabel15.StylePriority.UseBackColor = False
+        Me.XrLabel15.StylePriority.UseFont = False
+        Me.XrLabel15.StylePriority.UseForeColor = False
+        Me.XrLabel15.StylePriority.UseTextAlignment = False
+        Me.XrLabel15.Text = ": الخصم"
+        Me.XrLabel15.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel13
+        '
+        Me.XrLabel13.BackColor = System.Drawing.Color.Black
+        Me.XrLabel13.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.25!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel13.ForeColor = System.Drawing.Color.White
+        Me.XrLabel13.LocationFloat = New DevExpress.Utils.PointFloat(129.3777!, 23.95833!)
+        Me.XrLabel13.Name = "XrLabel13"
+        Me.XrLabel13.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel13.SizeF = New System.Drawing.SizeF(94.22955!, 23.95833!)
+        Me.XrLabel13.StylePriority.UseBackColor = False
+        Me.XrLabel13.StylePriority.UseFont = False
+        Me.XrLabel13.StylePriority.UseForeColor = False
+        Me.XrLabel13.StylePriority.UseTextAlignment = False
+        Me.XrLabel13.Text = ": الضريبة"
+        Me.XrLabel13.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel49
+        '
+        Me.XrLabel49.BackColor = System.Drawing.Color.Black
+        Me.XrLabel49.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.25!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel49.ForeColor = System.Drawing.Color.White
+        Me.XrLabel49.LocationFloat = New DevExpress.Utils.PointFloat(129.3777!, 0.0!)
+        Me.XrLabel49.Name = "XrLabel49"
+        Me.XrLabel49.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel49.SizeF = New System.Drawing.SizeF(94.22961!, 23.95833!)
+        Me.XrLabel49.StylePriority.UseBackColor = False
+        Me.XrLabel49.StylePriority.UseFont = False
+        Me.XrLabel49.StylePriority.UseForeColor = False
+        Me.XrLabel49.StylePriority.UseTextAlignment = False
+        Me.XrLabel49.Text = ": المجموع"
+        Me.XrLabel49.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight
+        '
+        'XrLabel48
+        '
+        Me.XrLabel48.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.XrLabel48.BorderColor = System.Drawing.Color.White
+        Me.XrLabel48.Borders = DevExpress.XtraPrinting.BorderSide.Top
+        Me.XrLabel48.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "Vw_DetilsInvoice2.Total_Item")})
+        Me.XrLabel48.Font = New DevExpress.Drawing.DXFont("Tahoma", 8.0!, DevExpress.Drawing.DXFontStyle.Bold)
+        Me.XrLabel48.ForeColor = System.Drawing.Color.Black
+        Me.XrLabel48.LocationFloat = New DevExpress.Utils.PointFloat(9.999943!, 0.0!)
+        Me.XrLabel48.Name = "XrLabel48"
+        Me.XrLabel48.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
+        Me.XrLabel48.SizeF = New System.Drawing.SizeF(119.3778!, 23.95832!)
+        Me.XrLabel48.StylePriority.UseBackColor = False
+        Me.XrLabel48.StylePriority.UseBorderColor = False
+        Me.XrLabel48.StylePriority.UseBorders = False
+        Me.XrLabel48.StylePriority.UseFont = False
+        Me.XrLabel48.StylePriority.UseForeColor = False
+        Me.XrLabel48.StylePriority.UseTextAlignment = False
+        XrSummary4.FormatString = "{0:n2}"
+        XrSummary4.Running = DevExpress.XtraReports.UI.SummaryRunning.Report
+        Me.XrLabel48.Summary = XrSummary4
+        Me.XrLabel48.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'PageInfo
+        '
+        Me.PageInfo.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.PageInfo.BorderColor = System.Drawing.Color.WhiteSmoke
+        Me.PageInfo.BorderDashStyle = DevExpress.XtraPrinting.BorderDashStyle.Solid
+        Me.PageInfo.Borders = DevExpress.XtraPrinting.BorderSide.None
+        Me.PageInfo.Name = "PageInfo"
+        Me.PageInfo.Padding = New DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100.0!)
+        Me.PageInfo.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'Calculateddiscount
+        '
+        Me.Calculateddiscount.DataMember = "Rpt_pricelistCustomer"
+        Me.Calculateddiscount.Name = "Calculateddiscount"
+        '
+        'SqlDataSource3
+        '
+        Me.SqlDataSource3.ConnectionName = "osama_DB_ECG_Connection 6"
+        Me.SqlDataSource3.Name = "SqlDataSource3"
+        TableQuery1.Name = "Vw_DetilsInvoice2"
+        TableInfo1.Name = "Vw_DetilsInvoice2"
+        ColumnInfo1.Name = "Ext_InvoiceNo"
+        ColumnInfo2.Name = "No_Item"
+        ColumnInfo3.Name = "Ex_Item"
+        ColumnInfo4.Name = "Name"
+        ColumnInfo5.Name = "Quntity"
+        ColumnInfo6.Name = "Unit"
+        ColumnInfo7.Name = "NameStores"
+        ColumnInfo8.Name = "Price_Item"
+        ColumnInfo9.Name = "Discount_Item"
+        ColumnInfo10.Name = "Value_Discount"
+        ColumnInfo11.Name = "Total_Item"
+        ColumnInfo12.Name = "Order_Stores_No"
+        ColumnInfo13.Name = "SalseOrder_No"
+        ColumnInfo14.Name = "Compny_Code"
+        ColumnInfo15.Name = "Name_Cru"
+        ColumnInfo16.Name = "Rat_Invoice"
+        ColumnInfo17.Name = "InvoiceDate"
+        ColumnInfo18.Name = "AccountName"
+        ColumnInfo19.Name = "Notes"
+        TableInfo1.SelectedColumns.AddRange(New DevExpress.DataAccess.Sql.ColumnInfo() {ColumnInfo1, ColumnInfo2, ColumnInfo3, ColumnInfo4, ColumnInfo5, ColumnInfo6, ColumnInfo7, ColumnInfo8, ColumnInfo9, ColumnInfo10, ColumnInfo11, ColumnInfo12, ColumnInfo13, ColumnInfo14, ColumnInfo15, ColumnInfo16, ColumnInfo17, ColumnInfo18, ColumnInfo19})
+        TableQuery1.Tables.AddRange(New DevExpress.DataAccess.Sql.TableInfo() {TableInfo1})
+        Me.SqlDataSource3.Queries.AddRange(New DevExpress.DataAccess.Sql.SqlQuery() {TableQuery1})
+        Me.SqlDataSource3.ResultSchemaSerializable = resources.GetString("SqlDataSource3.ResultSchemaSerializable")
+        '
+        'Invoice_Prchesess
+        '
+        Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() {Me.Detail, Me.TopMargin, Me.BottomMargin, Me.ReportHeader, Me.GroupFooter1})
+        Me.CalculatedFields.AddRange(New DevExpress.XtraReports.UI.CalculatedField() {Me.Calculateddiscount})
+        Me.ComponentStorage.AddRange(New System.ComponentModel.IComponent() {Me.SqlDataSource3})
+        Me.DataMember = "Vw_DetilsInvoice2"
+        Me.DataSource = Me.SqlDataSource3
+        Me.DisplayName = "Rpt_PO"
+        Me.Margins = New DevExpress.Drawing.DXMargins(23, 1, 240, 133)
+        Me.ScriptLanguage = DevExpress.XtraReports.ScriptLanguage.VisualBasic
+        Me.StyleSheet.AddRange(New DevExpress.XtraReports.UI.XRControlStyle() {Me.PageInfo})
+        Me.Version = "15.2"
+        CType(Me.XrTable1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
+
+    End Sub
+    Friend WithEvents Detail As DevExpress.XtraReports.UI.DetailBand
+    Friend WithEvents TopMargin As DevExpress.XtraReports.UI.TopMarginBand
+    Friend WithEvents BottomMargin As DevExpress.XtraReports.UI.BottomMarginBand
+    Friend WithEvents XrLabel2 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel10 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents ReportHeader As DevExpress.XtraReports.UI.ReportHeaderBand
+    Friend WithEvents XrLabel11 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel9 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel5 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel7 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel17 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel8 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents GroupFooter1 As DevExpress.XtraReports.UI.GroupFooterBand
+    Friend WithEvents XrLabel29 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel39 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel34 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel49 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel48 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrTable1 As DevExpress.XtraReports.UI.XRTable
+    Friend WithEvents XrTableRow1 As DevExpress.XtraReports.UI.XRTableRow
+    Friend WithEvents XrTableCell1 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell3 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell2 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell4 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell5 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell6 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrLabel6 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel4 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel3 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents PageInfo As DevExpress.XtraReports.UI.XRControlStyle
+    Friend WithEvents XrPictureBox1 As DevExpress.XtraReports.UI.XRPictureBox
+    Friend WithEvents XrLabel28 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel31 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel27 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel37 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel32 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel23 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel38 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel25 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel24 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel18 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel15 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel13 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents Calculateddiscount As DevExpress.XtraReports.UI.CalculatedField
+    Friend WithEvents Lab_Codation1 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel14 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel26 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel35 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel19 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel22 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel40 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents LabInvoice_Type As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel43 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLine5 As DevExpress.XtraReports.UI.XRLine
+    Friend WithEvents XrLabel42 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLine4 As DevExpress.XtraReports.UI.XRLine
+    Friend WithEvents XrLine2 As DevExpress.XtraReports.UI.XRLine
+    Friend WithEvents XrLine1 As DevExpress.XtraReports.UI.XRLine
+    Friend WithEvents XrLabel41 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel21 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel44 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents LabTfket As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents XrLabel45 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents Lab_Codation2 As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents Lab_SB As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents lab_Box As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents lab_Fotter As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents lab_discount As DevExpress.XtraReports.UI.XRLabel
+    Friend WithEvents SqlDataSource3 As DevExpress.DataAccess.Sql.SqlDataSource
+End Class

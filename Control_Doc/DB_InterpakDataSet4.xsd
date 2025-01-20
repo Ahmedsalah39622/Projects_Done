@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DB_InterpakDataSet4" targetNamespace="http://tempuri.org/DB_InterpakDataSet4.xsd" xmlns:mstns="http://tempuri.org/DB_InterpakDataSet4.xsd" xmlns="http://tempuri.org/DB_InterpakDataSet4.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="DB_InterpakConnectionString_New" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DB_InterpakConnectionString_New (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Control_Doc.My.MySettings.GlobalReference.Default.DB_InterpakConnectionString_New" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vw_treelistTableAdapter" GeneratorDataComponentClassName="vw_treelistTableAdapter" Name="vw_treelist" UserDataComponentName="vw_treelistTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DB_InterpakConnectionString_New (MySettings)" DbObjectName="DB_Interpak.dbo.vw_treelist" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT NameLevel1, NameLevel2, NameLevel3 FROM dbo.vw_treelist</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="NameLevel1" DataSetColumn="NameLevel1" />
+              <Mapping SourceColumn="NameLevel2" DataSetColumn="NameLevel2" />
+              <Mapping SourceColumn="NameLevel3" DataSetColumn="NameLevel3" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DB_InterpakDataSet4" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DB_InterpakDataSet4" msprop:Generator_UserDSName="DB_InterpakDataSet4">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vw_treelist" msprop:Generator_TableClassName="vw_treelistDataTable" msprop:Generator_TableVarName="tablevw_treelist" msprop:Generator_TablePropName="vw_treelist" msprop:Generator_RowDeletingName="vw_treelistRowDeleting" msprop:Generator_RowChangingName="vw_treelistRowChanging" msprop:Generator_RowEvHandlerName="vw_treelistRowChangeEventHandler" msprop:Generator_RowDeletedName="vw_treelistRowDeleted" msprop:Generator_UserTableName="vw_treelist" msprop:Generator_RowChangedName="vw_treelistRowChanged" msprop:Generator_RowEvArgName="vw_treelistRowChangeEvent" msprop:Generator_RowClassName="vw_treelistRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NameLevel1" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNameLevel1" msprop:Generator_ColumnPropNameInRow="NameLevel1" msprop:Generator_ColumnPropNameInTable="NameLevel1Column" msprop:Generator_UserColumnName="NameLevel1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NameLevel2" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNameLevel2" msprop:Generator_ColumnPropNameInRow="NameLevel2" msprop:Generator_ColumnPropNameInTable="NameLevel2Column" msprop:Generator_UserColumnName="NameLevel2" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NameLevel3" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNameLevel3" msprop:Generator_ColumnPropNameInRow="NameLevel3" msprop:Generator_ColumnPropNameInTable="NameLevel3Column" msprop:Generator_UserColumnName="NameLevel3" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
